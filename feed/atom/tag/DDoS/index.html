@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://2890.ltd/tag/DDoS/"
+>
+<title type="text">OKYes! 个人博客 - DDoS</title>
+<subtitle type="text"></subtitle>
+<updated>2020-03-26T11:02:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2/18.1.29">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://2890.ltd/tag/DDoS/" />
+<id>https://2890.ltd/feed/atom/tag/DDoS/</id>
+<link rel="self" type="application/atom+xml" href="https://2890.ltd/feed/atom/tag/DDoS/" />
+<entry>
+<title type="html"><![CDATA[10分钟，0经费让你的网站告别黑洞]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" />
+<id>https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html</id>
+<updated>2020-03-26T11:02:00+08:00</updated>
+<published>2020-03-26T11:02:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[做网站，被打已经是家常便饭了，可是每次被打，无防的阿里云、腾讯云的最低级的VPS一碰就死，几乎没有挣扎的余地，但是我们可以通过GitHub、Coding等等HTML托管服务（Pages服务）来让...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" xml:lang="zh-CN"><![CDATA[
+<p>做网站，被打已经是家常便饭了，可是每次被打，无防的阿里云、腾讯云的最低级的VPS一碰就死，几乎没有挣扎的余地，但是我们可以通过GitHub、Coding等等HTML托管服务（Pages服务）来让你的网站有一个全量镜像。</p><h2 id="toc_0">成品效果</h2><blockquote>感谢夜杏提供HTML单页</blockquote><p>[hide]<br>[btn url="https://mir.2890.ltd"]我的镜像传送门[/btn]<br>[/hide]<br>[hide] <figure><img class="" alt="" data-src="https://cdn.hyh.ink/2020/03/584915723.png#mirages-width=1356&mirages-height=661&mirages-cdn-type=2#vwid=1356&vhei=661" src="https://cdn.hyh.ink/2020/03/584915723.png#mirages-width=1356&mirages-height=661&mirages-cdn-type=2#vwid=1356&vhei=661"></figure> [/hide]<br>[hide] <figure><img class="" alt="" data-src="https://cdn.hyh.ink/2020/03/1988481188.png#mirages-width=1365&mirages-height=672&mirages-cdn-type=2#vwid=1365&vhei=672" src="https://cdn.hyh.ink/2020/03/1988481188.png#mirages-width=1365&mirages-height=672&mirages-cdn-type=2#vwid=1365&vhei=672"></figure> [/hide]</p><h2 id="toc_1">现在存在的问题</h2><ol><li>不支持Pio插件</li><li>不支持Mirages的PJAX</li><li>不支持Typecho原生评论<del>（废话）</del></li></ol><h2 id="toc_2">如何制作</h2><p>使用之前请粗略的了解Git的使用方法，本人只讲原理，不贴图<del>（懒）</del><br>首先，注册一个GitHub或Coding账户，开一个新的Repo（GItHub命名请命名为Yourname.github.io）<br>使用SSH keygen创建一个新的ssh公钥，上传到Coding或者Github<br>然后使用crontab制作一个计划任务，ssh脚本为<br>[hide]<br>crontab用脚本</p><pre><code>rm -rf /www/wwwroot/网站目录/网址/*
+cd /www/wwwroot/网站目录
+wget -r -p -np -k 网址
+sudo sh /www/wwwroot/wdnmd.sh</code></pre><p>[/hide]<br>[hide]<br>wdnmd.sh</p><pre><code>cd /www/wwwroot/网站目录
+git config --global credential.helper store
+git config --global user.email &quot;Email&quot;
+git config --global user.name &quot;Your name&quot;
+git add .
+git commit -m &quot;update&quot;
+git push origin master</code></pre><p>[/hide]<br>使用代码之前请在你的网站目录初始化Git<br>使用<code>git init</code>，然后 <code>git remote add origin Git 仓库ssh地址</code>然后<code>git pull origin master</code>拉取一次远程仓库，然后就可以执行脚本了。<br>执行脚本后，你的网站就会被部署到Coding或Github上（Coding需要使用DevOps仓库并且在部署中打开静态Pages）</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" thr:count="0"/>
+</entry>
+</feed>

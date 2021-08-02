@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://2890.ltd/feed/rss/tag/DDoS/">
+<title>OKYes! 个人博客 - DDoS</title>
+<link>https://2890.ltd/tag/DDoS/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html">
+<title>10分钟，0经费让你的网站告别黑洞</title>
+<link>https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html</link>
+<dc:date>2020-03-26T11:02:00+08:00</dc:date>
+<description>做网站，被打已经是家常便饭了，可是每次被打，无防的阿里云、腾讯云的最低级的VPS一碰就死，几乎没有挣扎的余地，但是我们可以通过GitHub、Coding等等HTML托管服务（Pages服务）来让你的网站有一个全量镜像。成品效果感谢夜杏提供HTML单页[hide][btn url="https://mir.2890.ltd"]我的镜像传送门[/btn][/hide][hide]  [/hide][hide]  [/hide]现在存在的问题不支持Pio插件不支持Mirages的PJAX不支持Typecho原生评论（废话）如何制作使用之前请粗略的了解Git的使用方法，本人只讲原理，不贴图（懒）首先，注册一个GitHub或Coding账户，开一个新的Repo（GItHub命名请命名为Yourname.github.io）使用SSH keygen创建一个新的ssh公钥，上传到Coding或者Github然后使用crontab制作一个计划任务，ssh脚本为[hide]crontab用脚本rm -rf /www/wwwroot/网站目录/网址/*
+cd /www/wwwroot/网站目录
+wget -r -p -np -k 网址
+sudo sh /www/wwwroot/wdnmd.sh[/hide][hide]wdnmd.shcd /www/wwwroot/网站目录
+git config --global credential.helper store
+git config --global user.email &quot;Email&quot;
+git config --global user.name &quot;Your name&quot;
+git add .
+git commit -m &quot;update&quot;
+git push origin master[/hide]使用代码之前请在你的网站目录初始化Git使用git init，然后 git remote add origin Git 仓库ssh地址然后git pull origin master拉取一次远程仓库，然后就可以执行脚本了。执行脚本后，你的网站就会被部署到Coding或Github上（Coding需要使用DevOps仓库并且在部署中打开静态Pages）</description>
+</item>
+</rdf:RDF>

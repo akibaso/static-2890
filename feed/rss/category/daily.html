@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://2890.ltd/feed/rss/category/daily.html">
+<title>OKYes! 个人博客 - 日常</title>
+<link>https://2890.ltd/category/daily.html</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://2890.ltd/blog/what-should-we-do-after-baidu-cloud-disk-1.html"/>
+<rdf:li resource="https://2890.ltd/blog/59.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://2890.ltd/blog/what-should-we-do-after-baidu-cloud-disk-1.html">
+<title>百度云盘之后，我们应何去何从</title>
+<link>https://2890.ltd/blog/what-should-we-do-after-baidu-cloud-disk-1.html</link>
+<dc:date>2020-04-17T08:59:00+08:00</dc:date>
+<description>15日晚，我一个朋友向我转发了一条消息，打开一看，Pandownload作者被抓了，许多知名百度盘下载项目都删库了，那咋整嘛，百度盘里面2T的数据搞不下来了？QQ20200417-081224.png下载工具现在已经没有工具可以做到满速下载了，如果你有一台群晖NAS，你可以使用CloudSync，那样你还是会有1M/s的速度如果你没有，你可以使用BaiduPCS-Go，是一款Go语言的第三方百度客户端，或者你还可以用BaiduPCS-Web，是一款基于BaiduPCS-Go的软件，他拥有WebUI，本文主要介绍它如何使用从[file href="https://github.com/liuzhuoling2011/baidupcs-web/releases"]BaiduPCS-GO[/file]里根据你系统架构下载最新的构建，解压，打开打开localhost:5299，登录你的账号QQ20200417-082329.png不出意外登陆之后你能看到你的文件列表选择你需要下载的文件，点击下载，然后在上传下载管理中查看进度QQ20200417-082626.pngQQ20200417-082722.png建议挂在服务器下载，这个肯定没有Pandownload快，但是比App限制100K好很多APP卡试用免费加速此功能需要修改时区，看着用先试用一次加速，将时间修改到你启用之前，你会发现试用999秒其余网盘推荐1.白嫖1.微软OneDriveOneDrive我也用了很久了，很良心的盘厂商可以白嫖开发者E5订阅，或者去蹭大佬的A1，E12.蓝奏云蓝奏云我没怎么用过，但是下载都是20M/s以上3.阿里云盘阿里云盘是最近才出现的一款标称不限速的云盘，现在还有机会得到2T以上的空间2.付费1.夸克云盘不到20R 6t不限速网盘</description>
+</item>
+<item rdf:about="https://2890.ltd/blog/59.html">
+<title>挖坑埋密码？密码存贮程序Bitwarden初体验</title>
+<link>https://2890.ltd/blog/59.html</link>
+<dc:date>2020-01-16T14:03:00+08:00</dc:date>
+<description>这是一款开源的密码服务器，在密码学中有一个原则，只要你的密钥没有被泄露，那么你的数据就是安全的，无论过程是否众所周知。安装体验官方BitWarden是基于.Net 部署，使用MSSQL过于臃肿，于是我并没有使用官方版本，去年在社区中有几位朋友使用Rust将他重写了，项目名为BitWarden_rs，使用SQLite作为数据库，提供Docker部署方案,而且可以免费使用官方一些付费的应用，本篇使用BitWarden_rs作为演示安装Docker#安装Docker
+yum -y install docker
+#启动docker
+systemctl start docker
+#开机自启
+systemctl enable docker使用Docker拉取BitWarden_rs镜像并运行docker pull bitwardenrs/server:latest
+docker run -d --name bitwarden -v /bw-data/:/data/ -p 8848:80 bitwardenrs/server:latest配置反向代理建议使用宝塔面板进行反向代理配置，使用Freessl获取一个免费的亚洲诚信SSL证书（BitWarden需要SSL才能工作）反向代理配置如下#PROXY-START/
+location  ~* \.(php|jsp|cgi|asp|aspx)$
+{
+    proxy_pass http://你的IP:8848;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+}
+location /
+{
+    proxy_pass http://你的IP:8848;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+        add_header Cache-Control no-cache;
+}
+
+#PROXY-END/ENJOYMain</description>
+</item>
+</rdf:RDF>

