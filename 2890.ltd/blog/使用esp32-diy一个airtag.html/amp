@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html amp lang="zh-CN" data-amp-auto-lightbox-disable transformed="self;v=1" i-amphtml-layout="" i-amphtml-no-boilerplate="">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1"><link rel="preconnect" href="https://cdn.ampproject.org"><style amp-runtime="" i-amphtml-version="012207181727000">html{overflow-x:hidden!important}html.i-amphtml-fie{height:100%!important;width:100%!important}html:not([amp4ads]),html:not([amp4ads]) body{height:auto!important}html:not([amp4ads]) body{margin:0!important}body{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}html.i-amphtml-singledoc.i-amphtml-embedded{-ms-touch-action:pan-y pinch-zoom;touch-action:pan-y pinch-zoom}html.i-amphtml-fie>body,html.i-amphtml-singledoc>body{overflow:visible!important}html.i-amphtml-fie:not(.i-amphtml-inabox)>body,html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body{position:relative!important}html.i-amphtml-ios-embed-legacy>body{overflow-x:hidden!important;overflow-y:auto!important;position:absolute!important}html.i-amphtml-ios-embed{overflow-y:auto!important;position:static}#i-amphtml-wrapper{overflow-x:hidden!important;overflow-y:auto!important;position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;margin:0!important;display:block!important}html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper{-webkit-overflow-scrolling:touch!important}#i-amphtml-wrapper>body{position:relative!important;border-top:1px solid transparent!important}#i-amphtml-wrapper+body{visibility:visible}#i-amphtml-wrapper+body .i-amphtml-lightbox-element,#i-amphtml-wrapper+body[i-amphtml-lightbox]{visibility:hidden}#i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element{visibility:visible}#i-amphtml-wrapper.i-amphtml-scroll-disabled,.i-amphtml-scroll-disabled{overflow-x:hidden!important;overflow-y:hidden!important}amp-instagram{padding:54px 0px 0px!important;background-color:#fff}amp-iframe iframe{box-sizing:border-box!important}[amp-access][amp-access-hide]{display:none}[subscriptions-dialog],body:not(.i-amphtml-subs-ready) [subscriptions-action],body:not(.i-amphtml-subs-ready) [subscriptions-section]{display:none!important}amp-experiment,amp-live-list>[update]{display:none}amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden{display:none!important}amp-list [fetch-error],amp-list[load-more] [load-more-button],amp-list[load-more] [load-more-end],amp-list[load-more] [load-more-failed],amp-list[load-more] [load-more-loading]{display:none}amp-list[diffable] div[role=list]{display:block}amp-story-page,amp-story[standalone]{min-height:1px!important;display:block!important;height:100%!important;margin:0!important;padding:0!important;overflow:hidden!important;width:100%!important}amp-story[standalone]{background-color:#000!important;position:relative!important}amp-story-page{background-color:#757575}amp-story .amp-active>div,amp-story .i-amphtml-loader-background{display:none!important}amp-story-page:not(:first-of-type):not([distance]):not([active]){transform:translateY(1000vh)!important}amp-autocomplete{position:relative!important;display:inline-block!important}amp-autocomplete>input,amp-autocomplete>textarea{padding:0.5rem;border:1px solid rgba(0,0,0,0.33)}.i-amphtml-autocomplete-results,amp-autocomplete>input,amp-autocomplete>textarea{font-size:1rem;line-height:1.5rem}[amp-fx^=fly-in]{visibility:hidden}amp-script[nodom],amp-script[sandboxed]{position:fixed!important;top:0!important;width:1px!important;height:1px!important;overflow:hidden!important;visibility:hidden}
+/*# sourceURL=/css/ampdoc.css*/[hidden]{display:none!important}.i-amphtml-element{display:inline-block}.i-amphtml-blurry-placeholder{transition:opacity 0.3s cubic-bezier(0.0,0.0,0.2,1)!important;pointer-events:none}[layout=nodisplay]:not(.i-amphtml-element){display:none!important}.i-amphtml-layout-fixed,[layout=fixed][width][height]:not(.i-amphtml-layout-fixed){display:inline-block;position:relative}.i-amphtml-layout-responsive,[layout=responsive][width][height]:not(.i-amphtml-layout-responsive),[width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-layout-responsive){display:block;position:relative}.i-amphtml-layout-intrinsic,[layout=intrinsic][width][height]:not(.i-amphtml-layout-intrinsic){display:inline-block;position:relative;max-width:100%}.i-amphtml-layout-intrinsic .i-amphtml-sizer{max-width:100%}.i-amphtml-intrinsic-sizer{max-width:100%;display:block!important}.i-amphtml-layout-container,.i-amphtml-layout-fixed-height,[layout=container],[layout=fixed-height][height]:not(.i-amphtml-layout-fixed-height){display:block;position:relative}.i-amphtml-layout-fill,.i-amphtml-layout-fill.i-amphtml-notbuilt,[layout=fill]:not(.i-amphtml-layout-fill),body noscript>*{display:block;overflow:hidden!important;position:absolute;top:0;left:0;bottom:0;right:0}body noscript>*{position:absolute!important;width:100%;height:100%;z-index:2}body noscript{display:inline!important}.i-amphtml-layout-flex-item,[layout=flex-item]:not(.i-amphtml-layout-flex-item){display:block;position:relative;-ms-flex:1 1 auto;flex:1 1 auto}.i-amphtml-layout-fluid{position:relative}.i-amphtml-layout-size-defined{overflow:hidden!important}.i-amphtml-layout-awaiting-size{position:absolute!important;top:auto!important;bottom:auto!important}i-amphtml-sizer{display:block!important}@supports (aspect-ratio:1/1){i-amphtml-sizer.i-amphtml-disable-ar{display:none!important}}.i-amphtml-blurry-placeholder,.i-amphtml-fill-content{display:block;height:0;max-height:100%;max-width:100%;min-height:100%;min-width:100%;width:0;margin:auto}.i-amphtml-layout-size-defined .i-amphtml-fill-content{position:absolute;top:0;left:0;bottom:0;right:0}.i-amphtml-replaced-content,.i-amphtml-screen-reader{padding:0!important;border:none!important}.i-amphtml-screen-reader{position:fixed!important;top:0px!important;left:0px!important;width:4px!important;height:4px!important;opacity:0!important;overflow:hidden!important;margin:0!important;display:block!important;visibility:visible!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:8px!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:12px!important}.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader{left:16px!important}.i-amphtml-unresolved{position:relative;overflow:hidden!important}.i-amphtml-select-disabled{-webkit-user-select:none!important;-ms-user-select:none!important;user-select:none!important}.i-amphtml-notbuilt,[layout]:not(.i-amphtml-element),[width][height][heights]:not([layout]):not(.i-amphtml-element),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element){position:relative;overflow:hidden!important;color:transparent!important}.i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,[layout]:not([layout=container]):not(.i-amphtml-element)>*,[width][height][heights]:not([layout]):not(.i-amphtml-element)>*,[width][height][sizes]:not([layout]):not(.i-amphtml-element)>*{display:none}amp-img:not(.i-amphtml-element)[i-amphtml-ssr]>img.i-amphtml-fill-content{display:block}.i-amphtml-notbuilt:not(.i-amphtml-layout-container),[layout]:not([layout=container]):not(.i-amphtml-element),[width][height][heights]:not([layout]):not(.i-amphtml-element),[width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element){color:transparent!important;line-height:0!important}.i-amphtml-ghost{visibility:hidden!important}.i-amphtml-element>[placeholder],[layout]:not(.i-amphtml-element)>[placeholder],[width][height][heights]:not([layout]):not(.i-amphtml-element)>[placeholder],[width][height][sizes]:not([layout]):not(.i-amphtml-element)>[placeholder]{display:block;line-height:normal}.i-amphtml-element>[placeholder].amp-hidden,.i-amphtml-element>[placeholder].hidden{visibility:hidden}.i-amphtml-element:not(.amp-notsupported)>[fallback],.i-amphtml-layout-container>[placeholder].amp-hidden,.i-amphtml-layout-container>[placeholder].hidden{display:none}.i-amphtml-layout-size-defined>[fallback],.i-amphtml-layout-size-defined>[placeholder]{position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;z-index:1}amp-img[i-amphtml-ssr]:not(.i-amphtml-element)>[placeholder]{z-index:auto}.i-amphtml-notbuilt>[placeholder]{display:block!important}.i-amphtml-hidden-by-media-query{display:none!important}.i-amphtml-element-error{background:red!important;color:#fff!important;position:relative!important}.i-amphtml-element-error:before{content:attr(error-message)}i-amp-scroll-container,i-amphtml-scroll-container{position:absolute;top:0;left:0;right:0;bottom:0;display:block}i-amp-scroll-container.amp-active,i-amphtml-scroll-container.amp-active{overflow:auto;-webkit-overflow-scrolling:touch}.i-amphtml-loading-container{display:block!important;pointer-events:none;z-index:1}.i-amphtml-notbuilt>.i-amphtml-loading-container{display:block!important}.i-amphtml-loading-container.amp-hidden{visibility:hidden}.i-amphtml-element>[overflow]{cursor:pointer;position:relative;z-index:2;visibility:hidden;display:initial;line-height:normal}.i-amphtml-layout-size-defined>[overflow]{position:absolute}.i-amphtml-element>[overflow].amp-visible{visibility:visible}template{display:none!important}.amp-border-box,.amp-border-box *,.amp-border-box :after,.amp-border-box :before{box-sizing:border-box}amp-pixel{display:none!important}amp-analytics,amp-auto-ads,amp-story-auto-ads{position:fixed!important;top:0!important;width:1px!important;height:1px!important;overflow:hidden!important;visibility:hidden}amp-story{visibility:hidden!important}html.i-amphtml-fie>amp-analytics{position:initial!important}[visible-when-invalid]:not(.visible),form [submit-error],form [submit-success],form [submitting]{display:none}amp-accordion{display:block!important}@media (min-width:1px){:where(amp-accordion>section)>:first-child{margin:0;background-color:#efefef;padding-right:20px;border:1px solid #dfdfdf}:where(amp-accordion>section)>:last-child{margin:0}}amp-accordion>section{float:none!important}amp-accordion>section>*{float:none!important;display:block!important;overflow:hidden!important;position:relative!important}amp-accordion,amp-accordion>section{margin:0}amp-accordion:not(.i-amphtml-built)>section>:last-child{display:none!important}amp-accordion:not(.i-amphtml-built)>section[expanded]>:last-child{display:block!important}
+/*# sourceURL=/css/ampshared.css*/</style><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="og:title" content="使用ESP32 DIY一个AirTag | OkYes!博客"><meta property="og:description" content="好久不见！又到了一年夏季，去年到现在攒了一大堆活没整，今天先整一个简单的，用ESP32作为蓝牙Beacon模拟airtag使用（白嫖）苹果的Find My网络进行查找。"><meta property="og:url" content="https://2890.ltd/blog/使用esp32-diy一个airtag.html"><meta property="og:site_name" content="OkYes!博客"><meta property="article:published_time" content="2022-07-23T16:24:15+00:00"><meta property="article:modified_time" content="2022-07-23T16:38:28+00:00"><meta property="og:image" content="https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png"><meta property="og:image:width" content="894"><meta property="og:image:height" content="593"><meta property="og:image:type" content="image/png"><meta name="author" content="秋庭 そう"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:label1" content="作者"><meta name="twitter:data1" content="秋庭 そう"><meta name="twitter:label2" content="预计阅读时间"><meta name="twitter:data2" content="5分"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="generator" content="AMP Plugin v2.3.0; mode=reader; theme=legacy"><script async="" src="https://cdn.ampproject.org/v0.mjs" type="module" crossorigin="anonymous"></script><script async nomodule src="https://cdn.ampproject.org/v0.js" crossorigin="anonymous"></script><style amp-custom="">.wp-block-code code{display:block;font-family:inherit;overflow-wrap:break-word;white-space:pre-wrap}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-image{margin:0 0 1em}.wp-block-image amp-img{height:auto;max-width:100%;vertical-align:bottom}.wp-block-image:not(.is-style-rounded)>a,.wp-block-image:not(.is-style-rounded) amp-img{border-radius:inherit}.wp-block-image figcaption{margin-top:.5em;margin-bottom:1em}.wp-block-image figure{margin:0}ol,ul{box-sizing:border-box}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}html :where(.has-border-color),html :where([data-amp-original-style*=border-width]){border-style:solid}html :where(amp-img[class*=wp-image-]),html :where(amp-anim[class*=wp-image-]){height:auto;max-width:100%}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}:where(.wp-block-group.has-background){padding:1.25em 2.375em}@-webkit-keyframes a{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes a{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes b{0%{background-position:0 0}to{background-position:30px 0}}@keyframes b{0%{background-position:0 0}to{background-position:30px 0}}.amp-wp-unknown-size,amp-img.amp-wp-enforced-sizes{-o-object-fit:contain;object-fit:contain}amp-img img,amp-img noscript{image-rendering:inherit;-o-object-fit:inherit;object-fit:inherit;-o-object-position:inherit;object-position:inherit}.amp-wp-enforced-sizes{max-width:100%;margin:0 auto}html{background:#0a89c0}body{background:#fff;color:#353535;font-family:Georgia,"Times New Roman",Times,Serif;font-weight:300;line-height:1.75em}p,ol,ul,figure{margin:0 0 1em;padding:0}a,a:visited{color:#0a89c0}a:hover,a:active,a:focus{color:#353535}blockquote{color:#353535;background:rgba(127,127,127,.125);border-left:2px solid #0a89c0;margin:8px 0 24px 0;padding:16px}blockquote p:last-child{margin-bottom:0}.amp-wp-meta,.amp-wp-header div,.amp-wp-title,.amp-wp-tax-category,.amp-wp-tax-tag,.amp-wp-comments-link,.amp-wp-footer p,.back-to-top{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif}.amp-wp-header{background-color:#0a89c0}.amp-wp-header div{color:#fff;font-size:1em;font-weight:400;margin:0 auto;max-width:calc(840px - 32px);padding:.875em 16px;position:relative}.amp-wp-header a{color:#fff;text-decoration:none}.amp-wp-article{color:#353535;font-weight:400;margin:1.5em auto;max-width:840px;overflow-wrap:break-word;word-wrap:break-word}.amp-wp-article-header{align-items:center;align-content:stretch;display:flex;flex-wrap:wrap;justify-content:space-between;margin:1.5em 16px 0}.amp-wp-title{color:#353535;display:block;flex:1 0 100%;font-weight:900;margin:0 0 .625em;width:100%}.amp-wp-meta{color:#696969;display:inline-block;flex:2 1 50%;font-size:.875em;line-height:1.5em;margin:0 0 1.5em;padding:0}.amp-wp-article-header .amp-wp-meta:last-of-type{text-align:right}.amp-wp-article-header .amp-wp-meta:first-of-type{text-align:left}.amp-wp-byline amp-img,.amp-wp-byline .amp-wp-author{display:inline-block;vertical-align:middle}.amp-wp-byline amp-img{border:1px solid #0a89c0;border-radius:50%;position:relative;margin-right:6px}.amp-wp-posted-on{text-align:right}.amp-wp-article-featured-image{margin:0 0 1em}.amp-wp-article-featured-image amp-img{margin:0 auto}.amp-wp-article-content{margin:0 16px}.amp-wp-article-content ul,.amp-wp-article-content ol{margin-left:1em}.amp-wp-article-content .wp-caption{max-width:100%}.amp-wp-article-content amp-img{margin:0 auto}.wp-caption{padding:0}.amp-wp-article-footer .amp-wp-meta{display:block}.amp-wp-tax-category,.amp-wp-tax-tag{color:#696969;font-size:.875em;line-height:1.5em;margin:1.5em 16px}.amp-wp-comments-link{color:#696969;font-size:.875em;line-height:1.5em;text-align:center;margin:2.25em 0 1.5em}.amp-wp-comments-link a{border-style:solid;border-color:#c2c2c2;border-width:1px 1px 2px;border-radius:4px;background-color:transparent;color:#0a89c0;cursor:pointer;display:block;font-size:14px;font-weight:600;line-height:18px;margin:0 auto;max-width:200px;padding:11px 16px;text-decoration:none;width:50%;-webkit-transition:background-color .2s ease;transition:background-color .2s ease}.amp-wp-footer{border-top:1px solid #c2c2c2;margin:calc(1.5em - 1px) 0 0}.amp-wp-footer div{margin:0 auto;max-width:calc(840px - 32px);padding:1.25em 16px 1.25em;position:relative}.amp-wp-footer h2{font-size:1em;line-height:1.375em;margin:0 0 .5em}.amp-wp-footer p{color:#696969;font-size:.8em;line-height:1.5em;margin:0 85px 0 0}.amp-wp-footer a{text-decoration:none}.back-to-top{bottom:1.275em;font-size:.8em;font-weight:600;line-height:2em;position:absolute;right:16px}.amp-wp-8900653:not(#_#_#_#_#_){background-color:rgba(247,86,118,.2)}.amp-wp-01b9f5f:not(#_#_#_#_#_){border-left-color:#f75676}.amp-wp-5919a5a:not(#_#_#_#_#_){background-color:#7889e8}
+
+/*# sourceURL=amp-custom.css */</style><link rel="canonical" href="../使用esp32-diy一个airtag.html"><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://2890.ltd/#website","url":"https://2890.ltd/","name":"OkYes!\u535a\u5ba2","description":"Why I had never caught the felicity.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://2890.ltd/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"zh-CN"},{"@type":"ImageObject","inLanguage":"zh-CN","@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#primaryimage","url":"https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png","contentUrl":"https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png","width":894,"height":593},{"@type":"WebPage","@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html","url":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html","name":"\u4f7f\u7528ESP32 DIY\u4e00\u4e2aAirTag | OkYes!\u535a\u5ba2","isPartOf":{"@id":"https://2890.ltd/#website"},"primaryImageOfPage":{"@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#primaryimage"},"image":{"@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#primaryimage"},"thumbnailUrl":"https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png","datePublished":"2022-07-23T16:24:15+00:00","dateModified":"2022-07-23T16:38:28+00:00","author":{"@id":"https://2890.ltd/#/schema/person/3ce5f5fb2b21118561ff22d4b8b8e9d8"},"breadcrumb":{"@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#breadcrumb"},"inLanguage":"zh-CN","potentialAction":[{"@type":"ReadAction","target":["https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html"]}]},{"@type":"BreadcrumbList","@id":"https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"\u9996\u9875","item":"https://2890.ltd/"},{"@type":"ListItem","position":2,"name":"\u4f7f\u7528ESP32 DIY\u4e00\u4e2aAirTag"}]},{"@type":"Person","@id":"https://2890.ltd/#/schema/person/3ce5f5fb2b21118561ff22d4b8b8e9d8","name":"\u79cb\u5ead \u305d\u3046","image":{"@type":"ImageObject","inLanguage":"zh-CN","@id":"https://2890.ltd/#/schema/person/image/","url":"https://static.jks.life/avatar/fc5b857f26570beb80268906b9afc044?s=96\u0026r=g\u0026d=404","contentUrl":"https://static.jks.life/avatar/fc5b857f26570beb80268906b9afc044?s=96\u0026r=g\u0026d=404","caption":"\u79cb\u5ead \u305d\u3046"},"sameAs":["https://2890.ltd"],"url":"https://2890.ltd/blog/author/given"}]}</script><title>使用ESP32 DIY一个AirTag | OkYes!博客</title></head>
+
+<body class="">
+
+<header id="top" class="amp-wp-header">
+	<div>
+		<a href="../../index.html">
+									<span class="amp-site-title">
+				OkYes!博客			</span>
+		</a>
+	</div>
+</header>
+
+<article class="amp-wp-article">
+	<header class="amp-wp-article-header">
+		<h1 class="amp-wp-title">使用ESP32 DIY一个AirTag</h1>
+			<div class="amp-wp-meta amp-wp-byline">
+					<amp-img src="https://static.jks.life/avatar/fc5b857f26570beb80268906b9afc044?s=24&amp;r=g&amp;d=404" alt="秋庭 そう" width="24" height="24" layout="fixed" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:24px;height:24px" i-amphtml-layout="fixed"></amp-img>
+				<span class="amp-wp-author author vcard">秋庭 そう</span>
+	</div>
+<div class="amp-wp-meta amp-wp-posted-on">
+	<time datetime="2022-07-23T16:24:15+00:00">
+		5天前	</time>
+</div>
+	</header>
+
+	<figure class="amp-wp-article-featured-image wp-caption">
+	<amp-img width="894" height="593" src="https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png" class="attachment-large size-large wp-post-image amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" alt="" data-hero-candidate="" layout="intrinsic" data-hero i-amphtml-ssr i-amphtml-layout="intrinsic"><i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjU5MyIgd2lkdGg9Ijg5NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><img class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" loading="lazy" alt="" src="https://cdn.hyh.ink/imger/2022/07/24/image22aac3845ada2853.png"></amp-img>	</figure>
+
+	<div class="amp-wp-article-content">
+		
+<p>好久不见！又到了一年夏季，去年到现在攒了一大堆活没整，今天先整一个简单的，用ESP32作为蓝牙Beacon模拟airtag使用<s>（白嫖）</s>苹果的Find My网络进行查找。</p>
+
+
+
+<h2>What you need</h2>
+
+
+
+<ul><li>ESP32 开发版</li><li>一台Mac（或者黑苹果/黑果虚拟机）</li><li>32.768kHz无源晶振（可选）</li><li>两颗10pF电容（可选）</li><li>5-10兆欧电阻（可选）</li><li>电池</li><li>烙铁</li></ul>
+
+
+
+<h2>引子</h2>
+
+
+
+<p>前段日子每日逛GitHub的时候发现了一个<a href="https://github.com/seemoo-lab/openhaystack" target="_blank" rel="noreferrer noopener nofollow">很有意思的开源仓库</a>，这个团队早在2019年就开始逆向工程苹果的Find My网络，站在Seemoo Lab的项目之上，我们免去了逆向工程的麻烦，可以直接使用来自他们的代码工作。</p>
+
+
+
+<div class="wp-block-argon-admonition admonition shadow-sm amp-wp-01b9f5f" data-amp-original-style="border-left-color:#f75676"><div class="admonition-title amp-wp-8900653" data-amp-original-style="background-color:#f7567633"><span>警告</span></div><div class="admonition-body">本项目（OpenHaystack以及本人基于其代码构建的软体）均为实验性软件，代码未经测试或不完整。本项目不隶属于Apple Inc.，也不受支持</div></div>
+
+
+
+<h2>实践</h2>
+
+
+
+<h3>构建硬件</h3>
+
+
+
+<p>将购得的硬件按如图方式<s>飞线</s>焊接之后，即可进行下一步操作</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><div class="fancybox-wrapper lazyload-container-unload" data-fancybox="post-images"><amp-img class="lazyload lazyload-style-4 amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+" data-original="https://cdn.hyh.ink/imger/2022/07/23/imageb8c93eb3e9b25183.png" alt="" width="708" height="510" layout="intrinsic" i-amphtml-layout="intrinsic"><i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMCIgd2lkdGg9IjcwOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+" loading="lazy" alt="" width="708" height="510"></noscript></amp-img></div><figcaption>硬件设计手册</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><div class="fancybox-wrapper lazyload-container-unload" data-fancybox="post-images"><amp-img class="lazyload lazyload-style-4 amp-wp-unknown-size amp-wp-unknown-width amp-wp-unknown-height amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+" data-original="https://cdn.hyh.ink/imger/2022/07/23/IMG_20220705_15340052e0d22dfecdfffe.png" alt="" width="600" height="400" layout="intrinsic" i-amphtml-layout="intrinsic"><i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwMCIgd2lkdGg9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+" alt="" width="600" height="400"></noscript></amp-img></div><figcaption>美妙的飞线</figcaption></figure>
+
+
+
+<p>完成了上述硬件操作之后，着手构建软件</p>
+
+
+
+<h3>安装软件</h3>
+
+
+
+<ol><li>在你的Mac上<a href="https://github.com/seemoo-lab/openhaystack/releases" target="_blank" rel="noreferrer noopener">下载安装openhaystack的软件</a></li><li>打开OpenHayStack 然后安装插件到 <code>~/Library/Mail/Bundle</code>.</li><li>在终端中输入 <code>sudo spctl --master-disable</code> 来暂时关闭Mac的Gatekeeper服务以运行邮箱插件</li><li>打开苹果自带邮件. 打开 <em>Preferences</em> → <em>General</em> → <em>Manage Plug-Ins…</em> 然后点击 <em>OpenHaystackMail.mailbundle</em> 旁边的复选框以启用<ul><li>如果没有管理插件按钮，请在终端输入 <code>sudo defaults write "/Library/Preferences/com.apple.mail" EnableBundles 1</code></li></ul></li><li>允许访问并重启邮件App</li><li>打开终端输入 <code>sudo spctl --master-enable</code>, 重新打开Gatekeeper服务</li></ol>
+
+
+
+<p>在OpenHaystack中点击加号新建一个物品，复制他的Advertisement Key（base64），作者原版的软件没有发挥出ESP32的省电潜能（没有使用到Light Sleep或者Modem Sleep模式）,300mAh的电池不足以支撑它发信24H，故此处不使用官方固件（若要使用可以直接点击Deploy选择esp32刷入）</p>
+
+
+
+<h3>构建固件</h3>
+
+
+
+<p>准备好一个esp-idf运行环境（或者跟随本文使用docker），克隆本仓库，在Firmware/ESP32/main中更改<strong>openhaystack_main.c</strong>，下面附上我修改过的文件</p>
+
+
+
+<div class="wp-block-argon-github github-info-card card shadow-sm github-info-card-full is-style-github-info-card-full" data-author="seemoo-lab" data-project="openhaystack"><div class="github-info-card-header"><a href="https://github.com/" target="_blank" title="Github" rel="noopener"><span><i class="fa fa-github"></i> GitHub</span></a></div><div class="github-info-card-body"><div class="github-info-card-name-a"><a href="https://github.com/seemoo-lab/openhaystack" target="_blank" rel="noopener"><span class="github-info-card-name">seemoo-lab/openhaystack</span></a></div><div class="github-info-card-description"></div></div><div class="github-info-card-bottom"><span class="github-info-card-meta github-info-card-meta-stars"><i class="fa fa-star"></i> <span class="github-info-card-stars"></span></span><span class="github-info-card-meta github-info-card-meta-forks"><i class="fa fa-code-fork"></i> <span class="github-info-card-forks"></span></span></div></div>
+
+
+
+<pre class="wp-block-code"><code>#include &lt;stdint.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdbool.h&gt;
+#include &lt;stdio.h&gt;
+
+#include "nvs_flash.h"
+#include "esp_partition.h"
+
+#include "esp_bt.h"
+#include "esp_gap_ble_api.h"
+#include "esp_gattc_api.h"
+#include "esp_gatt_defs.h"
+#include "esp_bt_main.h"
+#include "esp_bt_defs.h"
+#include "esp_log.h"
+#include "freertos/FreeRTOS.h"
+#include "esp_err.h"
+#include "esp_pm.h"
+static const char* LOG_TAG = "open_haystack";
+
+/** Callback function for BT events */
+static void esp_gap_cb(esp_gap_ble_cb_event_t event, esp_ble_gap_cb_param_t *param);
+
+/** Random device address */
+static esp_bd_addr_t rnd_addr = { 0xFF, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF };
+
+/** Advertisement payload */
+static uint8_t adv_data[31] = {
+	0x1e, /* Length (30) */
+	0xff, /* Manufacturer Specific Data (type 0xff) */
+	0x4c, 0x00, /* Company ID (Apple) */
+	0x12, 0x19, /* Offline Finding type and length */
+	0x00, /* State */
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, /* First two bits */
+	0x00, /* Hint (0x00) */
+};
+
+/* https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/bluetooth/esp_gap_ble.html#_CPPv420esp_ble_adv_params_t */
+static esp_ble_adv_params_t ble_adv_params = {
+    // Advertising min interval:
+    // Minimum advertising interval for undirected and low duty cycle
+    // directed advertising. Range: 0x0020 to 0x4000 Default: N = 0x0800
+    // (1.28 second) Time = N * 0.625 msec Time Range: 20 ms to 10.24 sec
+    .adv_int_min        = 0x4000, // 10.24s
+    // Advertising max interval:
+    // Maximum advertising interval for undirected and low duty cycle
+    // directed advertising. Range: 0x0020 to 0x4000 Default: N = 0x0800
+    // (1.28 second) Time = N * 0.625 msec Time Range: 20 ms to 10.24 sec
+    .adv_int_max        = 0x4000, // 10.24s，长间隔有助于省电
+    // Advertisement type
+    .adv_type           = ADV_TYPE_NONCONN_IND,
+    // Use the random address
+    .own_addr_type      = BLE_ADDR_TYPE_RANDOM,
+    // All channels
+    .channel_map        = ADV_CHNL_ALL,
+    // Allow both scan and connection requests from anyone. 
+    .adv_filter_policy = ADV_FILTER_ALLOW_SCAN_ANY_CON_ANY,
+};
+
+static void esp_gap_cb(esp_gap_ble_cb_event_t event, esp_ble_gap_cb_param_t *param)
+{
+    esp_err_t err;
+
+    switch (event) {
+        case ESP_GAP_BLE_ADV_DATA_RAW_SET_COMPLETE_EVT:
+            esp_ble_gap_start_advertising(&amp;ble_adv_params);
+            break;
+
+        case ESP_GAP_BLE_ADV_START_COMPLETE_EVT:
+            //adv start complete event to indicate adv start successfully or failed
+            if ((err = param-&gt;adv_start_cmpl.status) != ESP_BT_STATUS_SUCCESS) {
+                ESP_LOGE(LOG_TAG, "advertising start failed: %s", esp_err_to_name(err));
+            } else {
+                ESP_LOGI(LOG_TAG, "advertising has started.");
+            }
+            break;
+
+        case ESP_GAP_BLE_ADV_STOP_COMPLETE_EVT:
+            if ((err = param-&gt;adv_stop_cmpl.status) != ESP_BT_STATUS_SUCCESS){
+                ESP_LOGE(LOG_TAG, "adv stop failed: %s", esp_err_to_name(err));
+            }
+            else {
+                ESP_LOGI(LOG_TAG, "stop adv successfully");
+            }
+            break;
+        default:
+            break;
+    }
+}
+
+int load_key(uint8_t *dst, size_t size) {
+    const esp_partition_t *keypart = esp_partition_find_first(0x40, 0x00, "key");
+    if (keypart == NULL) {
+        ESP_LOGE(LOG_TAG, "Could not find key partition");
+        return 1;
+    }
+    esp_err_t status;
+    status = esp_partition_read(keypart, 0, dst, size);
+    if (status != ESP_OK) {
+        ESP_LOGE(LOG_TAG, "Could not read key from partition: %s", esp_err_to_name(status));
+    }
+    return status;
+}
+
+void set_addr_from_key(esp_bd_addr_t addr, uint8_t *public_key) {
+	addr[0] = public_key[0] | 0b11000000;
+	addr[1] = public_key[1];
+	addr[2] = public_key[2];
+	addr[3] = public_key[3];
+	addr[4] = public_key[4];
+	addr[5] = public_key[5];
+}
+
+void set_payload_from_key(uint8_t *payload, uint8_t *public_key) {
+    /* copy last 22 bytes */
+	memcpy(&amp;payload[7], &amp;public_key[6], 22);
+	/* append two bits of public key */
+	payload[29] = public_key[0] &gt;&gt; 6;
+}
+
+void app_main(void)
+{
+    esp_pm_config_esp32_t pm_config = {
+        .max_freq_mhz = 80, // e.g. 80, 160, 240
+        .min_freq_mhz = 40, // e.g. 40
+        .light_sleep_enable = true, // enable light sleep
+    };//降频，省电
+    ESP_ERROR_CHECK( esp_pm_configure(&amp;pm_config) );
+    ESP_ERROR_CHECK(nvs_flash_init());
+    ESP_ERROR_CHECK(esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT));
+    esp_bt_controller_config_t bt_cfg = BT_CONTROLLER_INIT_CONFIG_DEFAULT();
+    esp_bt_controller_init(&amp;bt_cfg);
+    esp_bt_controller_enable(ESP_BT_MODE_BLE);
+
+    esp_bluedroid_init();
+    esp_bluedroid_enable();
+
+    // Load the public key from the key partition
+    static uint8_t public_key[28];
+    if (load_key(public_key, sizeof(public_key)) != ESP_OK) {
+        ESP_LOGE(LOG_TAG, "Could not read the key, stopping.");
+        return;
+    }
+
+    set_addr_from_key(rnd_addr, public_key);
+    set_payload_from_key(adv_data, public_key);
+
+    ESP_LOGI(LOG_TAG, "using device address: %02x %02x %02x %02x %02x %02x", rnd_addr[0], rnd_addr[1], rnd_addr[2], rnd_addr[3], rnd_addr[4], rnd_addr[5]);
+
+    esp_err_t status;
+    //register the scan callback function to the gap module
+    if ((status = esp_ble_gap_register_callback(esp_gap_cb)) != ESP_OK) {
+        ESP_LOGE(LOG_TAG, "gap register error: %s", esp_err_to_name(status));
+        return;
+    }
+
+    if ((status = esp_ble_gap_set_rand_addr(rnd_addr)) != ESP_OK) {
+        ESP_LOGE(LOG_TAG, "couldn't set random address: %s", esp_err_to_name(status));
+        return;
+    }
+    if ((esp_ble_gap_config_adv_data_raw((uint8_t*)&amp;adv_data, sizeof(adv_data))) != ESP_OK) {
+        ESP_LOGE(LOG_TAG, "couldn't configure BLE adv: %s", esp_err_to_name(status));
+        return;
+    }
+    ESP_LOGI(LOG_TAG, "application initialized");
+}
+</code></pre>
+
+
+
+<p>同时，我们需要指定esp32 ble睡眠时钟为外置晶振以释放睡眠锁，在ESP32目录输入 <code>docker run --rm -v $PWD:/project -w /project -it espressif/idf</code> 进入esp-idf环境，运行 <code>idf.py menuconfig</code> ，进入Component config</p>
+
+
+
+<ul><li>(Top) → Component config → Hardware Settings → RTC Clock Config中切换RTC clock source 为External 32kHz crystal</li><li>(Top) → Component config → Power Management中打开Support for power management</li><li>(Top) → Component config → Bluetooth → Controller Options → MODEM SLEEP Options中打开Bluetooth modem sleep且切换Bluetooth low power clock为External 32kHz crystal</li></ul>
+
+
+
+<p>之后输入idf.py build再使用<code>./flash_esp32.sh -p /dev/yourSerialPort "Base64-encoded advertisement key"</code>刷入固件即可</p>
+
+
+
+<h2>效果</h2>
+
+
+
+<p>刷入固件后会在15分钟左右获得回报数据，暂时只能在OpenHaystack应用中查看位置数据，在苹果地图国际版中定位精确，若使用国内版苹果地图会出现WGS-84坐标转换为GCJ02<s>火星坐标</s>的问题，目前没有修复。</p>
+
+
+
+<h2>结语</h2>
+
+
+
+<p>离线查找网络无非是一个大坑，基于它全球的用户数量，苹果有能力去踩这个坑，Find My Network无非是一个创举，之后肯定会被其他公司争相模仿（如本文撰写完成时发布的Huawei Tag），用华为的网络对比苹果的网络，苹果的用户分布更广，网络设计更加透明，且当前Huawei Tag仅支持中国大陆境内销售的设备，未来可能还会有Xiaomi Tag等等产品，当然，适合自己的才是最好的（价位，精准度，续航等）</p>
+
+
+
+<p>说回Find My Network，网络设计的目的是让用户安全隐私的得到自己的离线设备的位置而无需承担传统GPS定位器的联网成本和续航问题，有居心叵测之人利用这个网络是无法避免的，苹果为此做出了防范，在Apple设备上会有Tag跟踪提示，但是对于安卓设备只能通过第三方软件实现（如同属上组织的AirGuard），如果用户没有此类软件则只能依靠Airtag自己发声意识到自己被跟踪，希望各位读者可以提高自身防范意识，避免隐私泄露。</p>
+
+
+
+<div class="wp-block-argon-admonition admonition shadow-sm amp-wp-01b9f5f" data-amp-original-style="border-left-color:#f75676"><div class="admonition-body">本文仅做可行性分析实践，依靠此教程行违法乱纪之事作者不承担任何责任！</div></div>
+
+
+
+<div class="wp-block-argon-alert alert amp-wp-5919a5a" data-amp-original-style="background-color:#7889e8"><span class="alert-inner--icon"><i class="fa fa-info-circle"></i></span><span class="alert-inner--text">另付上在中国使用以上工具实施跟踪行为可能触犯的法规</span></div>
+
+
+
+<blockquote class="wp-block-quote"><p>《中华人民共和国治安管理处罚法》</p><cite>第四十二条  有下列行为之一的，处五日以下拘留或者五百元以下罚款；情节较重的，处五日以上十日以下拘留，可以并处五百元以下罚款： （一）写恐吓信或者以其他方法威胁他人人身安全的； （二）公然侮辱他人或者捏造事实诽谤他人的； （三）捏造事实诬告陷害他人，企图使他人受到刑事追究或者受到治安管理处罚的； （四）对证人及其近亲属进行威胁、侮辱、殴打或者打击报复的； （五）多次发送淫秽、侮辱、恐吓或者其他信息，干扰他人正常生活的； （六）偷窥、偷拍、窃听、散布他人隐私的。</cite></blockquote>
+	</div>
+
+	<footer class="amp-wp-article-footer">
+			<div class="amp-wp-meta amp-wp-tax-category">
+		类别:<a href="../category/default" rel="category tag">杂</a>, <a href="../category/hw" rel="category tag">硬件</a>, <a href="../category/w3" rel="category tag">网络</a>	</div>
+
+	<div class="amp-wp-meta amp-wp-tax-tag">
+		代码:<a href="../tag/esp32" rel="tag">ESP32</a>, <a href="../tag/find-my" rel="tag">Find My</a>, <a href="https://2890.ltd/blog/tag/%e6%9f%a5%e6%89%be%e7%bd%91%e7%bb%9c" rel="tag">查找网络</a>, <a href="https://2890.ltd/blog/tag/%e7%a6%bb%e7%ba%bf%e6%9f%a5%e6%89%be" rel="tag">离线查找</a>	</div>
+		<div class="amp-wp-meta amp-wp-comments-link">
+		<a href="https://2890.ltd/blog/%e4%bd%bf%e7%94%a8esp32-diy%e4%b8%80%e4%b8%aaairtag.html#comments">
+			发表评论		</a>
+	</div>
+	</footer>
+</article>
+
+<footer class="amp-wp-footer">
+	<div>
+		<h2>OkYes!博客</h2>
+		<a href="amp#top" class="back-to-top">返回页首</a>
+	</div>
+</footer>
+
+
+	<amp-pixel src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A11.1.2&amp;blog=202298865&amp;post=335&amp;tz=8&amp;srv=2890.ltd&amp;host=2890.ltd&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" style="width:1px;height:1px" i-amphtml-layout="fixed"></amp-pixel>
+	
+
+</body></html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

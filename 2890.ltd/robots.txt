@@ -1,0 +1,5 @@
+Sitemap: https://2890.ltd/sitemap.xml
+Sitemap: https://2890.ltd/news-sitemap.xml
+
+
+Sitemap: https://2890.ltd/sitemap_index.xml
