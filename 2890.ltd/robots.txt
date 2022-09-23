@@ -1,5 +1,10 @@
 Sitemap: https://2890.ltd/sitemap.xml
 Sitemap: https://2890.ltd/news-sitemap.xml
-
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
 
 Sitemap: https://2890.ltd/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
