@@ -105,7 +105,7 @@
 			</div>
 			<div class="link mb-2 col-lg-6 col-md-6">
 				<div class="card shadow-sm friend-link-container">
-					<amp-img src="http://joker233.cn/pic/back.jpg" class="friend-link-avatar bg-gradient-secondary amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" width="1920" height="808" layout="intrinsic" i-amphtml-layout="intrinsic"><i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgwOCIgd2lkdGg9IjE5MjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"></i-amphtml-sizer><noscript><img src="http://joker233.cn/pic/back.jpg" width="1920" height="808"></noscript></amp-img>	<div class="friend-link-content">
+					<amp-img src="http://joker233.cn/pic/back.jpg" class="friend-link-avatar bg-gradient-secondary amp-wp-unknown-size amp-wp-unknown-width amp-wp-unknown-height amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" width="600" height="400" layout="intrinsic" i-amphtml-layout="intrinsic"><i-amphtml-sizer slot="i-amphtml-svc" class="i-amphtml-sizer"><img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQwMCIgd2lkdGg9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="></i-amphtml-sizer><noscript><img src="http://joker233.cn/pic/back.jpg" width="600" height="400"></noscript></amp-img>	<div class="friend-link-content">
 						<div class="friend-link-title title text-primary">
 							<a target="_blank" href="https://joker233.cn/">Joker233的奇妙Blog</a>
 						</div>
