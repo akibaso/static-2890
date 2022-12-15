@@ -40,10 +40,10 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../74.html.141">如何优雅的使用你的WebShell II</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../74.html.142">如何优雅的使用你的WebShell II</a></h2></header>
 
 	<div class="entry-content">
-		<p>上篇文章我们介绍了我推荐的WebShell，这篇我们来说说如何通过这个WebShell干一些其他事，这篇文章里我就不说访问啥了，直接放代码1.使用后门获取目录信息这个不多说，有PHP基础的应该都会用$dir = dirname(__FILE__… <a class="more-link" href="../74.html.141">继续阅读<span class="screen-reader-text">如何优雅的使用你的WebShell II</span></a></p>
+		<p>上篇文章我们介绍了我推荐的WebShell，这篇我们来说说如何通过这个WebShell干一些其他事，这篇文章里我就不说访问啥了，直接放代码1.使用后门获取目录信息这个不多说，有PHP基础的应该都会用$dir = dirname(__FILE__… <a class="more-link" href="../74.html.142">继续阅读<span class="screen-reader-text">如何优雅的使用你的WebShell II</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">
@@ -54,10 +54,10 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../72.html.141">如何优雅的给GetShell后的网站挂黑提醒</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../72.html.142">如何优雅的给GetShell后的网站挂黑提醒</a></h2></header>
 
 	<div class="entry-content">
-		<p>个人推荐webshell&lt;?php @eval($_GET["cmd"]); ?&gt;死稳的一句话，也是个基础WebShell，但是适用于宝塔之类的禁用了系统函数的环境，后面我会进行演示。当你通过自己的方法把这个shell上传了上去之后，… <a class="more-link" href="../72.html.141">继续阅读<span class="screen-reader-text">如何优雅的给GetShell后的网站挂黑提醒</span></a></p>
+		<p>个人推荐webshell&lt;?php @eval($_GET["cmd"]); ?&gt;死稳的一句话，也是个基础WebShell，但是适用于宝塔之类的禁用了系统函数的环境，后面我会进行演示。当你通过自己的方法把这个shell上传了上去之后，… <a class="more-link" href="../72.html.142">继续阅读<span class="screen-reader-text">如何优雅的给GetShell后的网站挂黑提醒</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">
@@ -68,10 +68,10 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../24.html.141">如何用三种方式优雅的往你的PHP源码放点不为人知的后门</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../24.html.142">如何用三种方式优雅的往你的PHP源码放点不为人知的后门</a></h2></header>
 
 	<div class="entry-content">
-		<p>兄 dei 你有没有尝试过辛辛苦苦写的源码被人解密拿去大肆分享？不管有没有，反正我是没有。那么这篇文章我们就来说一下如何有效的防范狗 b 并且阴一把狗 b 吧 QAQ巧用Get远程下载后门巧用Get远程下载后门 &lt;?php d… <a class="more-link" href="../24.html.141">继续阅读<span class="screen-reader-text">如何用三种方式优雅的往你的PHP源码放点不为人知的后门</span></a></p>
+		<p>兄 dei 你有没有尝试过辛辛苦苦写的源码被人解密拿去大肆分享？不管有没有，反正我是没有。那么这篇文章我们就来说一下如何有效的防范狗 b 并且阴一把狗 b 吧 QAQ巧用Get远程下载后门巧用Get远程下载后门 &lt;?php d… <a class="more-link" href="../24.html.142">继续阅读<span class="screen-reader-text">如何用三种方式优雅的往你的PHP源码放点不为人知的后门</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">

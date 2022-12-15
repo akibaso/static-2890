@@ -40,14 +40,14 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../analyze-a-xmrig-program.html.141">分析：一个挖矿木马</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../analyze-a-xmrig-program.html.142">分析：一个挖矿木马</a></h2></header>
 
 	<div class="entry-content">
-		<p>昨天，我一台服务器的CPU占用率超过了80%（那台服务器并没有被用于任何项目），登录 Cockpit 一看日志，从2022年1月12日 下午 7:01 到 2022年1月12日 下午 10:04一直有sshd的登陆错误报告，10：04之后就没了，心想不… <a class="more-link" href="../analyze-a-xmrig-program.html.141">继续阅读<span class="screen-reader-text">分析：一个挖矿木马</span></a></p>
+		<p>昨天，我一台服务器的CPU占用率超过了80%（那台服务器并没有被用于任何项目），登录 Cockpit 一看日志，从2022年1月12日 下午 7:01 到 2022年1月12日 下午 10:04一直有sshd的登陆错误报告，10：04之后就没了，心想不… <a class="more-link" href="../analyze-a-xmrig-program.html.142">继续阅读<span class="screen-reader-text">分析：一个挖矿木马</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">
-		<span class="posted-on">发布日期：<time class="entry-date published updated" datetime="2022-01-13T19:33:00+08:00">2022年1月13日</time></span><div class="post-taxonomies"><span class="cat-links">分类：<a href="../category/me.74" rel="category tag">我与</a>、<a href="../category/default" rel="category tag">杂</a>、<a href="../category/w3" rel="category tag">网络</a> </span><span class="tags-links">标签：<a href="https://2890.ltd/blog/tag/%e6%8c%96%e7%9f%bf%e7%97%85%e6%af%92" rel="tag">挖矿病毒</a>、<a href="https://2890.ltd/blog/tag/%e6%9c%a8%e9%a9%ac" rel="tag">木马</a></span></div>	</footer>
+		<span class="posted-on">发布日期：<time class="entry-date published updated" datetime="2022-01-13T19:33:00+08:00">2022年1月13日</time></span><div class="post-taxonomies"><span class="cat-links">分类：<a href="../category/me.75" rel="category tag">我与</a>、<a href="../category/default" rel="category tag">杂</a>、<a href="../category/w3" rel="category tag">网络</a> </span><span class="tags-links">标签：<a href="https://2890.ltd/blog/tag/%e6%8c%96%e7%9f%bf%e7%97%85%e6%af%92" rel="tag">挖矿病毒</a>、<a href="https://2890.ltd/blog/tag/%e6%9c%a8%e9%a9%ac" rel="tag">木马</a></span></div>	</footer>
 </article>
 	
 	
