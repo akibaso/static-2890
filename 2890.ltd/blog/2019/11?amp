@@ -40,10 +40,10 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../47.html.143">0成本搭建超快的Serverless Blog</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../47.html.144">0成本搭建超快的Serverless Blog</a></h2></header>
 
 	<div class="entry-content">
-		<p>用过很多博客程序了，有动态的，也有静态的，只能说各有所长吧。今天这个程序，基于serverless，运行在cloudflare workers上，除了域名需要付费(也可以去Freenom申请免费的，但是不推荐)其余都是完全免费的。演示源… <a class="more-link" href="../47.html.143">继续阅读<span class="screen-reader-text">0成本搭建超快的Serverless Blog</span></a></p>
+		<p>用过很多博客程序了，有动态的，也有静态的，只能说各有所长吧。今天这个程序，基于serverless，运行在cloudflare workers上，除了域名需要付费(也可以去Freenom申请免费的，但是不推荐)其余都是完全免费的。演示源… <a class="more-link" href="../47.html.144">继续阅读<span class="screen-reader-text">0成本搭建超快的Serverless Blog</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">
@@ -54,10 +54,10 @@
 
 	
 <header class="entry-header">
-	<h2 class="entry-title default-max-width"><a href="../40.html.143">自建KMS激活服务器:如何用CentOS安装KMS</a></h2></header>
+	<h2 class="entry-title default-max-width"><a href="../40.html.144">自建KMS激活服务器:如何用CentOS安装KMS</a></h2></header>
 
 	<div class="entry-content">
-		<p>或许大家都用过网上或者购买过光盘那些坑爹的Ghost盗版系统，内置各种辣鸡、流氓软件，新系统？纯净版Ghost系统？不存在的~所以，今天我们就来搭建windows kms服务器前言Key Management Service（简称:KMS），这个功… <a class="more-link" href="../40.html.143">继续阅读<span class="screen-reader-text">自建KMS激活服务器:如何用CentOS安装KMS</span></a></p>
+		<p>或许大家都用过网上或者购买过光盘那些坑爹的Ghost盗版系统，内置各种辣鸡、流氓软件，新系统？纯净版Ghost系统？不存在的~所以，今天我们就来搭建windows kms服务器前言Key Management Service（简称:KMS），这个功… <a class="more-link" href="../40.html.144">继续阅读<span class="screen-reader-text">自建KMS激活服务器:如何用CentOS安装KMS</span></a></p>
 	</div>
 
 	<footer class="entry-footer default-max-width">
